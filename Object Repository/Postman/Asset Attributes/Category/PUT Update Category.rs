@@ -7,6 +7,15 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -25,12 +34,20 @@
       <value>application/json</value>
       <webElementGuid>b94103c3-7989-4085-acbe-c3efa0b38be3</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>df9f45f8-69d7-406b-9b7c-1edac96ddab7</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${ASSET_ATTRIBUTES_BASE_URL}/v2/category/660e1072bfa71ffd2f4b8754</restUrl>
+   <restUrl>${assAtrUrl}${catg}660e1072bfa71ffd2f4b8754</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -42,9 +59,23 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>5a42995f-3c21-4b3d-b47b-f193a5284154</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>assAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.catagoryEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>catg</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

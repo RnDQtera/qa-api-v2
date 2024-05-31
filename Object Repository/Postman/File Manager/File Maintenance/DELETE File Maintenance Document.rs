@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>18688bf5-9292-41c3-9c4f-6a53288710d3</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>3301c1da-aeed-445a-8b88-684ac2322b62</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-maintenance/document?id=[&quot;1313131&quot;]</restUrl>
+   <restUrl>${felMgrUrl}${felMenDoc}?id=[&quot;1313131&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,6 +44,27 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
+      <description></description>
+      <id>7dd349dc-f1c7-4f3c-b81b-c8bf1ea2a474</id>
+      <masked>false</masked>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileMaintenanceDocument</defaultValue>
+      <description></description>
+      <id>86694a87-8406-4745-a2a6-dddc847dfe31</id>
+      <masked>false</masked>
+      <name>felMenDoc</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>0666a6ca-285d-436b-8d8c-726bfb68dad4</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

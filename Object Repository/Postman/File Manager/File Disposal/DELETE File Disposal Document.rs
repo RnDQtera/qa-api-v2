@@ -7,18 +7,35 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>50affa6d-bf1f-45e6-96ee-31d381a57f3d</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-disposal/document?id=1221212121</restUrl>
+   <restUrl>${felMgrUrl}${felDisDoc}?id=1221212121</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -30,9 +47,23 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>2186f188-6377-4877-ae0c-239b8366a114</id>
+      <id>7dd349dc-f1c7-4f3c-b81b-c8bf1ea2a474</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDisposalDocument</defaultValue>
+      <description></description>
+      <id>86694a87-8406-4745-a2a6-dddc847dfe31</id>
+      <masked>false</masked>
+      <name>felDisDoc</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>0666a6ca-285d-436b-8d8c-726bfb68dad4</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

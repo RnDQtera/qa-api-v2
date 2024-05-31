@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUT File Disposal Recover</name>
+   <name>DELETE File Disposal Photo</name>
    <tag></tag>
-   <elementGuidId>57366c38-7171-433b-aef0-963e08643837</elementGuidId>
+   <elementGuidId>dd8f4ffc-bfaf-4466-961d-3bfd0d057ec8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -11,43 +11,31 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;66277a90f7fb9d3842266915\&quot;\n  ]\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>eadb2b01-8a09-45dd-b1b1-a6bd42bdc605</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>f978fb12-5751-4211-90ca-9418d14a3a21</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>cd682491-e930-4701-9faa-7127a27c4b8a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-disposal/photo/recover</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${felMgrUrl}${felDisPhot}?id=[&quot;66277a90f7fb9d3842266915&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -59,9 +47,23 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>3097f9c0-d164-46fc-84d9-18eb8057209b</id>
+      <id>6136449e-e410-41f8-a279-69780c0c93dd</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDisposalPhoto</defaultValue>
+      <description></description>
+      <id>0332d301-f365-473f-bc35-2a6822fa001d</id>
+      <masked>false</masked>
+      <name>felDisPhot</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>7a2504ff-f030-4f64-b6ac-862380b07c1e</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

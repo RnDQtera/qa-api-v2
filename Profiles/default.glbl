@@ -11,6 +11,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/options'</initValue>
+      <name>Options</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/dropdown/'</initValue>
+      <name>dropdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-accounting-settings.tagsamurai.com/'</initValue>
       <name>ACCOUNTING_SETTINGS_BASE_URL</name>
    </GlobalVariableEntity>
@@ -26,8 +36,58 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/v2/depreciation-method/'</initValue>
+      <name>deprecMethodEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-asset-attributes.tagsamurai.com/'</initValue>
       <name>ASSET_ATTRIBUTES_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/asset-name/'</initValue>
+      <name>assetNameEndopint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-asset/options'</initValue>
+      <name>listAssetOptions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-brand/options'</initValue>
+      <name>listBrandOptions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-category/options/'</initValue>
+      <name>listCategoryOptions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-asset/'</initValue>
+      <name>listAsset</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-brand/'</initValue>
+      <name>listBrand</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/list-category/'</initValue>
+      <name>listCategory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v2/brands/'</initValue>
+      <name>brandsEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/category/'</initValue>
+      <name>catagoryEndpoint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -36,13 +96,48 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'v2/asset-policy'</initValue>
+      <name>assetPolicyEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-custom-fields.tagsamurai.com/'</initValue>
       <name>CUSTOM_FIELDS_BASE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/v2/custom-field/'</initValue>
+      <name>customFieldEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-file-manager.tagsamurai.com/'</initValue>
       <name>FILE_MANAGER_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/file-damage/'</initValue>
+      <name>fileDamageEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/file-disposal/photo/'</initValue>
+      <name>fileDisposalPhoto</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/file-disposal/document/'</initValue>
+      <name>fileDisposalDocument</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/file-maintenance/photo/'</initValue>
+      <name>fileMaintenancePhoto</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/file-maintenance/document/'</initValue>
+      <name>fileMaintenanceDocument</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

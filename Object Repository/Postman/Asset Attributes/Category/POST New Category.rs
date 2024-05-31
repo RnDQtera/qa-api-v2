@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${ASSET_ATTRIBUTES_BASE_URL}/v2/category</restUrl>
+   <restUrl>${assAtrUrl}${catg}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -59,9 +59,23 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>83ec3170-5aed-413d-ae66-f0fbad98a750</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>assAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.catagoryEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>catg</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

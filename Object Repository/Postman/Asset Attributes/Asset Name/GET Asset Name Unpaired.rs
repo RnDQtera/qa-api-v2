@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>eedfdb52-6e57-4ee3-91b1-bf1f06b3bcbb</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>34850fa0-350b-4db0-b343-914159de085c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.ASSET_ATTRIBUTES_BASE_URL}/v2/asset-name/unpaired</restUrl>
+   <restUrl>${assAtrUrl}${assNam}unpaired</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,6 +44,27 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
+      <description></description>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <masked>false</masked>
+      <name>assAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.assetNameEndopint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>assNam</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

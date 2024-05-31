@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET File Disposal Options</name>
+   <name>GET File Disposal Photo Options</name>
    <tag></tag>
    <elementGuidId>f989da34-841a-405a-9ecb-2f7ae3cd2b2f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>4e882954-6e85-4cf1-ac71-50173e354581</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>2bfb8323-3ebb-4d93-abfd-7bf0bc1c0ae8</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-disposal/photo/options?groupOptions=true&amp;modifiedByOptions=true&amp;fileFormatOptions=true&amp;assetNameOptions=true</restUrl>
+   <restUrl>${felMgrUrl}${felDisPhot}${opt}?groupOptions=true&amp;modifiedByOptions=true&amp;fileFormatOptions=true&amp;assetNameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>b0f83959-9a8a-4016-ba75-5ca33f855a53</id>
+      <id>6136449e-e410-41f8-a279-69780c0c93dd</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDisposalPhoto</defaultValue>
+      <description></description>
+      <id>0332d301-f365-473f-bc35-2a6822fa001d</id>
+      <masked>false</masked>
+      <name>felDisPhot</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>7a2504ff-f030-4f64-b6ac-862380b07c1e</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>74593bda-bfcd-4caf-a07d-773043a8ebcb</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>f4c088fa-a325-404b-8704-325ddc02f51b</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>46100c2e-6105-4c4f-975b-438b268e5aba</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${ASSET_POLICY_BASE_URL}/v2/asset-policy/options?isTransactionable=true&amp;userOptions=true&amp;modelsOptions=true&amp;brandsOptions=true&amp;nameOptions=true</restUrl>
+   <restUrl>${assPol}${assPolEp}${opt}?isTransactionable=true&amp;userOptions=true&amp;modelsOptions=true&amp;brandsOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_POLICY_BASE_URL</defaultValue>
       <description></description>
-      <id>5dc90b67-51d7-4246-ae02-8d92f1512a54</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ASSET_POLICY_BASE_URL</name>
+      <name>assPol</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.assetPolicyEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>assPolEp</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>d28be49b-20a3-4b91-b63e-090e860adbf7</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

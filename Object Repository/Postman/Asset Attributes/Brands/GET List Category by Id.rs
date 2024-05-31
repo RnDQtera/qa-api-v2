@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>b1ae76b6-aac4-4fea-9523-95a6f30578f2</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>0f1e2877-ebb8-4ef7-8d11-b9921c2767ff</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${ASSET_ATTRIBUTES_BASE_URL}/v2/brands/6639ac174bc09134be7c979e/list-category</restUrl>
+   <restUrl>${assAtrUrl}${brnd}6639ac174bc09134be7c979e${catg}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>933c1768-966d-4ab0-ba30-6b4b6f3c2a85</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>assAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.brandsEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>brnd</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.listCategory</defaultValue>
+      <description></description>
+      <id>9cfc5bae-0831-4afe-82dc-d2437ada23f5</id>
+      <masked>false</masked>
+      <name>catg</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

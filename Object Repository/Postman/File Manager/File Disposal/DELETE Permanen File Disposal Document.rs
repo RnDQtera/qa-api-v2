@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>eae4c7b7-8ff6-432e-828b-e5f44ac0ac28</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>3d4e6509-9ca9-4063-a201-a960005e3eea</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-disposal/document/delete-permanent?id=[&quot;65fd07a33cadf77cf657d875&quot;]</restUrl>
+   <restUrl>${felMgrUrl}${felDisDoc}delete-permanent?id=[&quot;65fd07a33cadf77cf657d875&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,23 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>bc22267e-90f3-4d80-ad0b-491f99423861</id>
+      <id>7dd349dc-f1c7-4f3c-b81b-c8bf1ea2a474</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDisposalDocument</defaultValue>
+      <description></description>
+      <id>86694a87-8406-4745-a2a6-dddc847dfe31</id>
+      <masked>false</masked>
+      <name>felDisDoc</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>0666a6ca-285d-436b-8d8c-726bfb68dad4</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

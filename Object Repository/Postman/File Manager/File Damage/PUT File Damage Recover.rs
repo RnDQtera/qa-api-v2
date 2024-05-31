@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -39,15 +39,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>1c5bdd33-3df8-444e-9f80-686a64e3181e</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>b3d92c2e-6c5f-4341-af63-07dc4eb51519</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-damage/recover</restUrl>
+   <restUrl>${felMgrUrl}${felDmg}recover</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -59,9 +59,23 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>2197fdc3-f9b0-42ee-927c-ddfd79efbffb</id>
+      <id>a9d097f7-e390-4afe-aa7d-7cd80c808d43</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDamageEndpoint</defaultValue>
+      <description></description>
+      <id>cbbf204f-90b0-4189-8659-262d013bf967</id>
+      <masked>false</masked>
+      <name>felDmg</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>630c71d6-c91e-4e70-b5a7-14f9cb72c9b6</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

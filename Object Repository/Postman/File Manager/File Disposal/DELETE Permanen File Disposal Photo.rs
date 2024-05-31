@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DELETE Permanen File Disposal</name>
+   <name>DELETE Permanen File Disposal Photo</name>
    <tag></tag>
    <elementGuidId>630fdbe2-a349-4ec4-b34a-afa9a207a99f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>0b35fdb7-e10c-4a55-8f36-7f4f7ccf2f8a</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>66d74678-8cd2-4eb5-b4d9-995038155c51</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-disposal/photo/delete-permanent?id=[&quot;66389c078835dfd59ba7ad7a&quot;]</restUrl>
+   <restUrl>${felMgrUrl}${felDisPhot}delete-permanent?id=[&quot;66389c078835dfd59ba7ad7a&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,23 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>11731a62-8f81-4dd6-9aa0-87c1b1ade60a</id>
+      <id>6136449e-e410-41f8-a279-69780c0c93dd</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDisposalPhoto</defaultValue>
+      <description></description>
+      <id>0332d301-f365-473f-bc35-2a6822fa001d</id>
+      <masked>false</masked>
+      <name>felDisPhot</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>7a2504ff-f030-4f64-b6ac-862380b07c1e</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>f1f5c89e-463d-4103-98db-a94053d695c2</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>474a0f5b-0ea7-42a8-9453-701ea69d773a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${CUSTOM_FIELDS_BASE_URL}/v2/custom-field/options?type=Audit&amp;valueOptions=true&amp;dataTypeOptions=true&amp;nameOptions=true</restUrl>
+   <restUrl>${cusFilUrl}${cusFil}${opt}?type=Audit&amp;valueOptions=true&amp;dataTypeOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.CUSTOM_FIELDS_BASE_URL</defaultValue>
       <description></description>
-      <id>638a9cdd-da34-4ea2-a1b2-5f0ff24800be</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>CUSTOM_FIELDS_BASE_URL</name>
+      <name>cusFilUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.customFieldEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>cusFil</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>a4295455-1ad7-4ef7-af04-d211226af834</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

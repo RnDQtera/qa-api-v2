@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>88bcb58d-43f2-4c5e-ba51-7b9518fb2272</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>45c36089-7849-4cd4-bbf5-ce194147976d</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${FILE_MANAGER_BASE_URL}/v2/file-damage/options?modifiedByOptions=true&amp;fileFormatOptions=true&amp;assetNameOptions=true&amp;groupOptions=true</restUrl>
+   <restUrl>${felMgrUrl}${felDmg}${opt}?modifiedByOptions=true&amp;fileFormatOptions=true&amp;assetNameOptions=true&amp;groupOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
-      <id>62f687ff-55d2-43e1-b704-471d5f059705</id>
+      <id>a9d097f7-e390-4afe-aa7d-7cd80c808d43</id>
       <masked>false</masked>
-      <name>FILE_MANAGER_BASE_URL</name>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDamageEndpoint</defaultValue>
+      <description></description>
+      <id>cbbf204f-90b0-4189-8659-262d013bf967</id>
+      <masked>false</masked>
+      <name>felDmg</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>630c71d6-c91e-4e70-b5a7-14f9cb72c9b6</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>24ecb4c9-0c3e-4ec9-a584-65e4f352dd8f</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

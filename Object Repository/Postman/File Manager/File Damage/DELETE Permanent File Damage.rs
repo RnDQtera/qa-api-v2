@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>3e46629a-f590-45f7-9778-b8959d050276</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>4481b01f-5e57-4194-951a-53c4d394b323</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.FILE_MANAGER_BASE_URL}/v2/file-damage/delete-permanent?id=[&quot;663ad9dadd76cdc5dba02b4b&quot;]</restUrl>
+   <restUrl>${felMgrUrl}${felDmg}delete-permanent?id=[&quot;663ad9dadd76cdc5dba02b4b&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,6 +44,27 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
+      <description></description>
+      <id>a9d097f7-e390-4afe-aa7d-7cd80c808d43</id>
+      <masked>false</masked>
+      <name>felMgrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fileDamageEndpoint</defaultValue>
+      <description></description>
+      <id>cbbf204f-90b0-4189-8659-262d013bf967</id>
+      <masked>false</masked>
+      <name>felDmg</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>630c71d6-c91e-4e70-b5a7-14f9cb72c9b6</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

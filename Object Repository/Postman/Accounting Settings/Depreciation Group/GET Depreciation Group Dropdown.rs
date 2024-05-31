@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>3ec0a2d0-ac5a-4e43-8b1b-b8af41968567</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>de64da5f-6dde-466e-83cb-a32fea1b9eb0</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${ACCOUNTING_SETTINGS_BASE_URL}/v2/depreciation-group/dropdown</restUrl>
+   <restUrl>${accSetUrl}${deprGroup}${dd}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
       <description></description>
-      <id>0c1b590e-1cf3-4865-b0b1-90701c0e42f4</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ACCOUNTING_SETTINGS_BASE_URL</name>
+      <name>accSetUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.deprecGroupEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>deprGroup</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.dropdown</defaultValue>
+      <description></description>
+      <id>117ef310-a60e-45e1-9f89-dbf84da95a9b</id>
+      <masked>false</masked>
+      <name>dd</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

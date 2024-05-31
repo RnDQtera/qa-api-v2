@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -39,15 +39,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>3234d3fb-6bfb-4631-bbf3-96de0728a4f8</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>1b8f3786-ac43-4ec4-8bb5-722700e58809</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${CUSTOM_FIELDS_BASE_URL}/v2/custom-field/bulk?type=General Information</restUrl>
+   <restUrl>${cusFilUrl}${cusFil}bulk?type=General Information</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -59,9 +59,23 @@
    <variables>
       <defaultValue>GlobalVariable.CUSTOM_FIELDS_BASE_URL</defaultValue>
       <description></description>
-      <id>d04a71af-f67a-4ac1-b77e-29efc76aa946</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>CUSTOM_FIELDS_BASE_URL</name>
+      <name>cusFilUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.customFieldEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>cusFil</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
