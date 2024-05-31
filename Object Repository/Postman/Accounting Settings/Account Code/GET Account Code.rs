@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NTdlNmIyNmUwN2VkMmZiMjM0OThjYSIsImlhdCI6MTcxNzAzNjcyMiwiZXhwIjoxNzE3MDc5OTIyfQ.wW_vNxfYDkHX0tABPCfDUoITzUOnYrsTn3sl51GJquA</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NTdlNmIyNmUwN2VkMmZiMjM0OThjYSIsImlhdCI6MTcxNzAzNjcyMiwiZXhwIjoxNzE3MDc5OTIyfQ.wW_vNxfYDkHX0tABPCfDUoITzUOnYrsTn3sl51GJquA</value>
-      <webElementGuid>3c417b47-2586-4a88-ad52-d1f980710135</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>0ac24e79-cb9e-430b-aafd-3c8c40be6826</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL}/v2/account-code/</restUrl>
+   <restUrl>${accSetUrl}${accCode}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -49,7 +49,21 @@
       <description></description>
       <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ACCOUNTING_SETTINGS_BASE_URL</name>
+      <name>accSetUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>accCode</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

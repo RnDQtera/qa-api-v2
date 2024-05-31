@@ -6,13 +6,23 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NTkyYzZlMTA3OTBlZWU3NzQ1NDg5ZSIsImlhdCI6MTcxNzEyMDExMCwiZXhwIjoxNzE3MTYzMzEwfQ.cZd89eDHaSzbxiAg3a2-RYTtqw5CGBtY52LZoLsaLgk'</initValue>
+      <name>Bearer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-accounting-settings.tagsamurai.com/'</initValue>
       <name>ACCOUNTING_SETTINGS_BASE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NTkyYzZlMTA3OTBlZWU3NzQ1NDg5ZSIsImlhdCI6MTcxNzEyMDExMCwiZXhwIjoxNzE3MTYzMzEwfQ.cZd89eDHaSzbxiAg3a2-RYTtqw5CGBtY52LZoLsaLgk'</initValue>
-      <name>Bearer</name>
+      <initValue>'v2/account-code/'</initValue>
+      <name>accCodeEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v2/depreciation-group/'</initValue>
+      <name>deprecGroupEndpoint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
