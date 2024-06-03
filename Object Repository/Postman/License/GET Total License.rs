@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>8f09ed66-77dd-453c-9c74-b004f456f01b</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>78954767-c430-4a9d-acc4-07059a969738</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${LICENSE_BASE_URL}/v2/total-license</restUrl>
+   <restUrl>${licUrl}/v2/total-license</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,16 @@
    <variables>
       <defaultValue>GlobalVariable.LICENSE_BASE_URL</defaultValue>
       <description></description>
-      <id>8fa232d9-932d-4045-9627-05765de2114d</id>
+      <id>3050283e-c750-4b9e-898a-59e09cf28f2a</id>
       <masked>false</masked>
-      <name>LICENSE_BASE_URL</name>
+      <name>licUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>c7d45619-06ce-4e0d-8ad4-e4d89538a242</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

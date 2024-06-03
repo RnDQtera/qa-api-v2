@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>51eba488-6263-4949-81f8-536d0ece4708</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>1180f08a-24b5-4ebf-9b72-7e9d9c514876</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${LICENSE_BASE_URL}/v2/662b078bfd889e8942f37f15/addOn-list?nameOptions=true&amp;addOnToShow=maintenance&amp;showChildData=true</restUrl>
+   <restUrl>${licUrl}/v2/662b078bfd889e8942f37f15${aol}?nameOptions=true&amp;addOnToShow=maintenance&amp;showChildData=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -49,7 +49,21 @@
       <description></description>
       <id>3050283e-c750-4b9e-898a-59e09cf28f2a</id>
       <masked>false</masked>
-      <name>LICENSE_BASE_URL</name>
+      <name>licUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.addOnList</defaultValue>
+      <description></description>
+      <id>72ef9435-e18f-4016-b938-cf900cf4bafe</id>
+      <masked>false</masked>
+      <name>aol</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>c7d45619-06ce-4e0d-8ad4-e4d89538a242</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>314a079c-c8da-4152-a4ce-7b7567bd0de7</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>0f3d0eec-3ef4-46be-829d-e73d5050e635</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${LICENSE_BASE_URL}/v2/661f5575e71826f072e40eff/fixed-asset-list/options?nameOptions=true&amp;modelOptions=true&amp;brandOptions=true</restUrl>
+   <restUrl>${licUrl}/v2/661f5575e71826f072e40eff${fixAsLis}${opt}?nameOptions=true&amp;modelOptions=true&amp;brandOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,30 @@
    <variables>
       <defaultValue>GlobalVariable.LICENSE_BASE_URL</defaultValue>
       <description></description>
-      <id>377454ea-b9d1-4708-9c6d-3773c6965b6f</id>
+      <id>3050283e-c750-4b9e-898a-59e09cf28f2a</id>
       <masked>false</masked>
-      <name>LICENSE_BASE_URL</name>
+      <name>licUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.fixedAssetList</defaultValue>
+      <description></description>
+      <id>72ef9435-e18f-4016-b938-cf900cf4bafe</id>
+      <masked>false</masked>
+      <name>fixAsLis</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>c7d45619-06ce-4e0d-8ad4-e4d89538a242</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>57a4cdee-4718-4727-8bc1-d4cbe71400a1</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

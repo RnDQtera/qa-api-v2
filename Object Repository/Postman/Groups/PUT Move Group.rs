@@ -7,6 +7,15 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -25,12 +34,20 @@
       <value>application/json</value>
       <webElementGuid>bae2c454-95ac-4afe-8a61-b07123bf1be0</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>136ce5bd-ef3c-43b0-9270-301cc4ab5593</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GROUPS_BASE_URL}/v2/662b5b65fd889e8942f386a7/move-group</restUrl>
+   <restUrl>${grupUrl}/v2/662b5b65fd889e8942f386a7/move-group</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -42,9 +59,16 @@
    <variables>
       <defaultValue>GlobalVariable.GROUPS_BASE_URL</defaultValue>
       <description></description>
-      <id>e7bff6ce-a0fb-40e3-8069-581ea4cb00df</id>
+      <id>d2f862e8-b730-4b95-be9e-7df56d727b32</id>
       <masked>false</masked>
-      <name>GROUPS_BASE_URL</name>
+      <name>grupUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>6ba11a30-a55e-4db1-93de-f4ad9131f3dd</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

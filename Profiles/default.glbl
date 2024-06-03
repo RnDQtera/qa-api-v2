@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NTkyYzZlMTA3OTBlZWU3NzQ1NDg5ZSIsImlhdCI6MTcxNzEyMDExMCwiZXhwIjoxNzE3MTYzMzEwfQ.cZd89eDHaSzbxiAg3a2-RYTtqw5CGBtY52LZoLsaLgk'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NWQxZjk0NjA4MTliYzc3YTVkMDUyYiIsImlhdCI6MTcxNzM3ODk2NCwiZXhwIjoxNzE3NDIyMTY0fQ.usVQ_tYCgve0gv3br9DyWXdNEwIWFVp6dWJbrSxnZEY'</initValue>
       <name>Bearer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -141,6 +141,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'/v2/file-repair-ticketing/'</initValue>
+      <name>fileRepairTicketing</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/files/'</initValue>
+      <name>files</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://dev-api-general-settings.tagsamurai.com'</initValue>
       <name>GENERAL_SETTINGS_BASE_URL</name>
    </GlobalVariableEntity>
@@ -156,7 +166,107 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev-api-logs.tagsamurai.com'</initValue>
+      <initValue>'/add-addon-asset-list/'</initValue>
+      <name>addAddOnAssetList</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/addOn-list/'</initValue>
+      <name>addOnList</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/fixed-asset-list/'</initValue>
+      <name>fixedAssetList</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-logs.tagsamurai.com/'</initValue>
       <name>LOG_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/change-log/'</initValue>
+      <name>changeLogEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/session-log/'</initValue>
+      <name>sessionLogEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/transaction-log/'</initValue>
+      <name>transactionLogEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-roles.tagsamurai.com/'</initValue>
+      <name>ROLES_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/roles/'</initValue>
+      <name>rolesEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/transaction-roles/'</initValue>
+      <name>transactionRoleEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-transaction-settings.tagsamurai.com/'</initValue>
+      <name>TRANSACTION_SETTINGS_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-assets-v2.tagsamurai.com/'</initValue>
+      <name>ASSETS_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/assets/'</initValue>
+      <name>assetsEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/attachment/'</initValue>
+      <name>attachmentEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/my-asset/'</initValue>
+      <name>myAssetEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-import.tagsamurai.com/'</initValue>
+      <name>IMPORT_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/group/'</initValue>
+      <name>groupEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/measurement/'</initValue>
+      <name>measurementEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/user/'</initValue>
+      <name>userEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Asset no jamak</description>
+      <initValue>'/v2/asset/'</initValue>
+      <name>assetEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>brand with no S</description>
+      <initValue>'/v2/brand/'</initValue>
+      <name>brandEndpoint</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

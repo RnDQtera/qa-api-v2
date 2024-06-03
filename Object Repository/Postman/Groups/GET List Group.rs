@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>8c24cb74-36da-4574-aa94-7c81ed088cac</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>7bc590c7-cd5a-4075-ad3c-5f8e93b8dbeb</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GROUPS_BASE_URL}/v2/tree?limit=10</restUrl>
+   <restUrl>${grupUrl}/v2/tree</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -49,7 +49,14 @@
       <description></description>
       <id>c2816bfa-c307-46a9-9390-e44017e4c285</id>
       <masked>false</masked>
-      <name>GROUPS_BASE_URL</name>
+      <name>grupUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>5d78d311-58e3-41a8-97c0-72291aa63c11</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

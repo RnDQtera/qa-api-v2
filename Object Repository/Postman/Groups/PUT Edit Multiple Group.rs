@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupIds\&quot;: [\n    \&quot;662b09f5fd889e8942f37f7a\&quot;\n  ],\n  \&quot;isDisposable\&quot;: true\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupIds\&quot;: [\n    \&quot;662b09f5fd889e8942f37f7a\&quot;,\n    \&quot;665d2669c6e3371b3cec9f65\&quot;\n  ],\n  \&quot;isDisposable\&quot;: true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,12 +34,20 @@
       <value>application/json</value>
       <webElementGuid>a416c690-c1e1-4ffd-819a-93ab186375bb</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>93195a47-5484-4cdb-b5d5-4071d06c446f</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GROUPS_BASE_URL}/v2/bulk</restUrl>
+   <restUrl>${grupUrl}/v2/bulk</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -51,9 +59,16 @@
    <variables>
       <defaultValue>GlobalVariable.GROUPS_BASE_URL</defaultValue>
       <description></description>
-      <id>89fe3862-eadf-4f16-bed1-8bae02c41eb0</id>
+      <id>d2f862e8-b730-4b95-be9e-7df56d727b32</id>
       <masked>false</masked>
-      <name>GROUPS_BASE_URL</name>
+      <name>grupUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>6ba11a30-a55e-4db1-93de-f4ad9131f3dd</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
