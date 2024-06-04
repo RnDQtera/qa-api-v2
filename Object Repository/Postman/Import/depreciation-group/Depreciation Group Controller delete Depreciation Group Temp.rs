@@ -7,12 +7,21 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;ids\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;ids\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,12 +42,20 @@
       <value>application/json</value>
       <webElementGuid>b94a51c8-d1e5-4c2a-90b1-79a439468699</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>30891d78-c4ef-478d-89dc-edb83abb29b5</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${baseUrl}/v2/depreciation-group/temporary</restUrl>
+   <restUrl>${impUrl}${dprGrp}temporary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -48,11 +65,38 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.IMPORT_BASE_URL</defaultValue>
       <description></description>
-      <id>4fe9a772-1b72-42eb-88ab-569fbb1dd26c</id>
+      <id>00047d92-940f-48f1-b5e4-4d84ef091f50</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>impUrl</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.deprecGroupEndpoint</defaultValue>
+      <description></description>
+      <id>3b17abb5-b9bb-4c42-9c50-759050ccc4d8</id>
+      <masked>false</masked>
+      <name>dprGrp</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>07b3992e-2c34-4777-9fd2-0bc609c22cdb</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

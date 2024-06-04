@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2NWQxZjk0NjA4MTliYzc3YTVkMDUyYiIsImlhdCI6MTcxNzM3ODk2NCwiZXhwIjoxNzE3NDIyMTY0fQ.usVQ_tYCgve0gv3br9DyWXdNEwIWFVp6dWJbrSxnZEY'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY1ZWE4M2JjZGRhNWY4OTI4MDA5MTJmNyIsImlhdCI6MTcwOTg2Nzk2NX0.55us-qRS19o--2GYcST2LSUN1MzZsZMBQNGyZuI1d5M'</initValue>
       <name>Bearer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -268,5 +268,90 @@
       <description>brand with no S</description>
       <initValue>'/v2/brand/'</initValue>
       <name>brandEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-tag.tagsamurai.com/'</initValue>
+      <name>TAG_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/pending-changes'</initValue>
+      <name>pendingChangesEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/prelist/change-tag'</initValue>
+      <name>prelistChangeTag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/prelist/replace-tag/'</initValue>
+      <name>prelistReplaceTag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/prelist/pair-tag/'</initValue>
+      <name>prelistPairTag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/prelist/unpair-tag/'</initValue>
+      <name>prelistUnpairTag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/qr/'</initValue>
+      <name>qrEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/paired/'</initValue>
+      <name>paired</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/report/'</initValue>
+      <name>reportEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/report/decline-report/'</initValue>
+      <name>reportDeclineReport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/rfid/'</initValue>
+      <name>rfidEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/rfid-qr/'</initValue>
+      <name>rfidQrEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/tag-transaction/'</initValue>
+      <name>tagTransaction</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-transfers-v2.tagsamurai.com/'</initValue>
+      <name>TRANSFER_BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/transaction/'</initValue>
+      <name>transactionEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/prelist/'</initValue>
+      <name>prelistEndpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v2/approval/'</initValue>
+      <name>approvalEndpoint</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
