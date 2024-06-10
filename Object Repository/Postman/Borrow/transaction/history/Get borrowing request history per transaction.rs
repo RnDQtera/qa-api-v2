@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get borrowing request history per transaction</name>
+   <tag></tag>
+   <elementGuidId>0aa4075d-a802-45b0-89ac-f7f3c6f4c25f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>826ebc80-1859-469e-a927-e215976a7ca0</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${baseUrl}/v2/transaction/history/by-transaction?requestDate=&lt;number>&amp;requestDate=&lt;number>&amp;lastUpdate=&lt;number>&amp;lastUpdate=&lt;number>&amp;manager=&lt;number>&amp;manager=&lt;number>&amp;status=&lt;string>&amp;status=&lt;string>&amp;user=&lt;number>&amp;user=&lt;number>&amp;tag=&lt;string>&amp;sortOrder=&lt;number>&amp;sortBy=&lt;string>&amp;limit=&lt;number>&amp;page=&lt;number>&amp;search=&lt;string></restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <description></description>
+      <id>2fd89e50-76a8-4f9a-bd01-3dcace71ef35</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

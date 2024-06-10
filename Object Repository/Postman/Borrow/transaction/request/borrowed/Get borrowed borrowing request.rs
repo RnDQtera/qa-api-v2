@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get borrowed borrowing request</name>
+   <tag></tag>
+   <elementGuidId>b6ecbb13-a9c1-4b4c-8063-afb920451466</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>f5624c76-9186-41b1-b8ad-e09a51a374cd</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${baseUrl}/v2/transaction/request/borrowed/by-asset?requestDate=&lt;number>&amp;requestDate=&lt;number>&amp;dueDate=&lt;number>&amp;dueDate=&lt;number>&amp;tag=&lt;string>&amp;lastUpdate=&lt;number>&amp;lastUpdate=&lt;number>&amp;manager=&lt;number>&amp;manager=&lt;number>&amp;borrower=&lt;number>&amp;borrower=&lt;number>&amp;model=&lt;string>&amp;model=&lt;string>&amp;brand=&lt;string>&amp;brand=&lt;string>&amp;group=&lt;number>&amp;group=&lt;number>&amp;status=&lt;string>&amp;status=&lt;string>&amp;name=&lt;number>&amp;name=&lt;number>&amp;sortOrder=&lt;number>&amp;sortBy=&lt;string>&amp;limit=&lt;number>&amp;page=&lt;number>&amp;search=&lt;string></restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <description></description>
+      <id>5d758f20-c2fd-484d-8230-7d25ec9c6c3e</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

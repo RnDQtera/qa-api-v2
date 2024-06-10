@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${tagUrl}${tagTrans}event-log?type=QR&amp;tag=&amp;search=&amp;limit=&amp;page=&amp;sortBy=&amp;sortOrder=&amp;modifiedBy=&amp;holder=&amp;group=&amp;updatedAt=</restUrl>
+   <restUrl>${tagUrl}${tagTrans}event-log?type=Available&amp;tag=QR&amp;search=&amp;limit=&amp;page=&amp;sortBy=&amp;sortOrder=&amp;modifiedBy=&amp;holder=&amp;group=&amp;updatedAt=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

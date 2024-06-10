@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${tagUrl}${penChng}${opt}?type=QR&amp;assetNameOptions=true&amp;search=</restUrl>
+   <restUrl>${tagUrl}${penChng}${opt}?type=Change to QR&amp;assetNameOptions=true&amp;search=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
