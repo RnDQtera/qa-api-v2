@@ -424,4 +424,9 @@
       <initValue>'/v2/approval/transaction/'</initValue>
       <name>approvalTransaction</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-api-assignments-v2.tagsamurai.com/'</initValue>
+      <name>ASSIGNMENT_BASE_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

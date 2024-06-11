@@ -7,6 +7,15 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -21,12 +30,20 @@
       <value>application/json</value>
       <webElementGuid>e3af5589-c25d-41e9-8c03-2bd01e4f7fda</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>fe45e232-b91a-44be-8a3f-fc3039ba2780</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseUrl}/v2/transaction/my-asset/history/options?statusOptions=false&amp;moduleOptions=false&amp;groupOptions=false&amp;modelOptions=false&amp;brandOptions=false&amp;nameOptions=false</restUrl>
+   <restUrl>${borUrl}${trMyAs}history${opt}?statusOptions=true&amp;moduleOptions=true&amp;groupOptions=true&amp;modelOptions=true&amp;brandOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -36,11 +53,45 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.BORROWING_BASE_URL</defaultValue>
       <description></description>
-      <id>f256e5f4-e08b-4265-bb83-8d019f237496</id>
+      <id>cd37bcaa-15f1-48cd-a9ec-e8025a7995d1</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>borUrl</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.transactionMyAsset</defaultValue>
+      <description></description>
+      <id>a3c4c87c-2a75-48e6-bf86-3ce71eec2f69</id>
+      <masked>false</masked>
+      <name>trMyAs</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>ed9eeed7-18aa-4ebf-a453-e93ac3a864fc</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>b1494c5e-4c45-40b6-8c3c-9639a504bea5</id>
+      <masked>false</masked>
+      <name>opt</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
