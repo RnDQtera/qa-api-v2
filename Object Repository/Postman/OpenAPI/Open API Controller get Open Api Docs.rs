@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Dropdown</name>
+   <name>Open API Controller get Open Api Docs</name>
    <tag></tag>
-   <elementGuidId>e8871642-bfa5-4af6-97ef-18bf7b72dc60</elementGuidId>
+   <elementGuidId>aa5222de-e436-4610-a087-abbeb8c5464a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,51 +17,59 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>fbfd1981-f858-4f35-99ee-3383468864c8</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>a6803369-3e57-445c-a89f-53a50ff633fa</webElementGuid>
+      <webElementGuid>0f748473-89d1-44c9-b27c-3cdd2ed99c45</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}dropdown</restUrl>
+   <restUrl>${opApiUrl}${opAp}asset-list</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.OPENAPI_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>748ee98c-f2e8-44ad-85d2-3bc52216acb2</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>opApiUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.openapiEndpoint</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>3d222ead-10d2-47c3-9de2-9e04b64418ff</id>
       <masked>false</masked>
-      <name>accCode</name>
+      <name>opAp</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>705a7681-e3cf-47fb-9449-413a9b3284ed</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

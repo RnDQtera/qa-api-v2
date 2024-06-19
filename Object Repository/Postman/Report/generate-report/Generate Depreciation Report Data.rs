@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST Account Code</name>
+   <name>Generate Depreciation Report Data</name>
    <tag></tag>
-   <elementGuidId>30c6a7f1-8f6a-421c-92de-e124e611f403</elementGuidId>
+   <elementGuidId>bb937902-3395-412a-8427-5356e090c7cf</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,23 +16,31 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;code\&quot;: \&quot;ilham-112233\&quot;,\n  \&quot;name\&quot;: \&quot;ilhambaru\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;listedBy\&quot;: \&quot;Category\&quot;,\n  \&quot;timeInterval\&quot;: \&quot;Date\&quot;,\n  \&quot;email\&quot;: {\n    \&quot;recipient\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;cc\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;bcc\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;subject\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;startDate\&quot;: \&quot;\u003cdate\u003e\&quot;,\n  \&quot;endDate\&quot;: \&quot;\u003cdate\u003e\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>9b2c74bc-06ba-4ea2-8f86-3fef2bcc73db</webElementGuid>
+      <webElementGuid>3dac973a-7eee-4945-bd68-11bb3704cec0</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>89abe38c-e1c0-4389-bbd7-0cd06751f7d8</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -40,14 +48,14 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>cce47ea6-f464-43ad-9ca0-6c8d3db074a4</webElementGuid>
+      <webElementGuid>5efb4e70-0ed3-4e9b-9f53-249f2f680952</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
+   <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}</restUrl>
+   <restUrl>${repUrl}${genRep}depreciation</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,23 +65,23 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.REPORT_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>3a475165-96c7-4ec6-9382-5bc0374ebf97</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>repUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.generateReport</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>e7a77cd1-93b6-415a-a397-21b3bf02c9a1</id>
       <masked>false</masked>
-      <name>accCode</name>
+      <name>genRep</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>f3734065-9df2-47da-8b27-bf9abea2d07e</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

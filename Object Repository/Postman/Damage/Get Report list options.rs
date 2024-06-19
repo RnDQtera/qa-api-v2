@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Dropdown</name>
+   <name>Get Report list options</name>
    <tag></tag>
-   <elementGuidId>e8871642-bfa5-4af6-97ef-18bf7b72dc60</elementGuidId>
+   <elementGuidId>9ef53d17-75ec-44d5-b365-7ab815baf2ea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -28,40 +28,33 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>a6803369-3e57-445c-a89f-53a50ff633fa</webElementGuid>
+      <webElementGuid>3fae74b2-e618-4540-bd06-1fc5543e8210</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}dropdown</restUrl>
+   <restUrl>${dmgUrl}/v2/options?assetNameOptions=true&amp;assetBrandOptions=true&amp;assetModelOptions=true&amp;assetGroupOptions=true&amp;reportedByOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.DAMAGE_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>a069cf6a-9bc4-4dae-9217-3b4163f438ad</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
-      <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
-      <masked>false</masked>
-      <name>accCode</name>
+      <name>dmgUrl</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>0b61d738-00b5-4734-98db-5f62cc068acc</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

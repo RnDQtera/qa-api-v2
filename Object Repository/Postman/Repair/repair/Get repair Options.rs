@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Dropdown</name>
+   <name>Get repair Options</name>
    <tag></tag>
-   <elementGuidId>e8871642-bfa5-4af6-97ef-18bf7b72dc60</elementGuidId>
+   <elementGuidId>07be2fa3-31a8-4a8e-87b9-4d1b81f94ff5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,53 +17,68 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>18e4d339-c3d6-4998-950a-d2315a54534d</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>a6803369-3e57-445c-a89f-53a50ff633fa</webElementGuid>
+      <webElementGuid>b2311547-454a-4162-9fad-08e8315732ff</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}dropdown</restUrl>
+   <restUrl>${repUrl}${rep}${opt}?type=Repaired&amp;assetNameOptions=true&amp;reportedByOptions=true&amp;assetGroupOptions=true&amp;staffOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.REPAIR_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>e9203a53-1eff-4230-b998-94d8a4a5b6c4</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>repUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.repairEndpoint</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>b621dfa3-b416-4006-9199-febff1ac29c4</id>
       <masked>false</masked>
-      <name>accCode</name>
+      <name>rep</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>4fb5f6c7-fb88-42a3-87fb-f449df6ecbc1</id>
       <masked>false</masked>
       <name>bt</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Options</defaultValue>
+      <description></description>
+      <id>962b820b-f0d4-4ea4-be21-2148292671d2</id>
+      <masked>false</masked>
+      <name>opt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

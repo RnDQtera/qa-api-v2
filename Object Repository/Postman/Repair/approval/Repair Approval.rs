@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Dropdown</name>
+   <name>Repair Approval</name>
    <tag></tag>
-   <elementGuidId>e8871642-bfa5-4af6-97ef-18bf7b72dc60</elementGuidId>
+   <elementGuidId>0e29e724-5514-4f35-95bb-1caaaa6953c7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,51 +17,71 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n  \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>43a0fba3-2e8d-4c9c-880d-29203174c853</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>f437497e-73d9-4628-93b7-f1d4a0714d1f</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>a6803369-3e57-445c-a89f-53a50ff633fa</webElementGuid>
+      <webElementGuid>a8ec847e-c50e-4164-8696-31d0ffc1803b</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}dropdown</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${repUrl}${apr}approve</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.REPAIR_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>ffe86aa3-5677-4e64-84d7-5bda7f90aa25</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>repUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.approvalEndpoint</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>08eaf02c-67d6-40d5-93cb-89997521fd34</id>
       <masked>false</masked>
-      <name>accCode</name>
+      <name>apr</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>b7e28cb4-2e99-479c-834c-50e6aaeadf60</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

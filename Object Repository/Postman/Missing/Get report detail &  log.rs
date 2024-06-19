@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Dropdown</name>
+   <name>Get report detail &amp;  log</name>
    <tag></tag>
-   <elementGuidId>e8871642-bfa5-4af6-97ef-18bf7b72dc60</elementGuidId>
+   <elementGuidId>26b19ada-0aba-4a45-88be-be8325e7cdda</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -28,40 +28,33 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>a6803369-3e57-445c-a89f-53a50ff633fa</webElementGuid>
+      <webElementGuid>b50a2916-ed43-49a0-80a9-3c849dbb7982</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <katalonVersion>9.5.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}dropdown</restUrl>
+   <restUrl>${misUrl}/v2/6662c0fd76bca7462e35dcb7</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.MISSING_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>70ba9f2f-8ec1-4fca-b5f9-ff2c52e8d171</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
-      <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
-      <masked>false</masked>
-      <name>accCode</name>
+      <name>misUrl</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>8bad3e9e-5495-43fc-a9f2-b8480586e6bd</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

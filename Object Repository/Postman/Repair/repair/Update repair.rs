@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST Account Code</name>
+   <name>Update repair</name>
    <tag></tag>
-   <elementGuidId>30c6a7f1-8f6a-421c-92de-e124e611f403</elementGuidId>
+   <elementGuidId>6c693c42-01ec-48b7-8c26-a43e24248cc7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -21,18 +21,64 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;code\&quot;: \&quot;ilham-112233\&quot;,\n  \&quot;name\&quot;: \&quot;ilhambaru\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;notes&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;serviceCenterId&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;totalAdditionalCost&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;nextAction&quot;,
+      &quot;value&quot;: &quot;Report Permanently Damaged&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;handledBy&quot;,
+      &quot;value&quot;: &quot;Warranty Claim&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;isSuccess&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;repairImage&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;paymentProof&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
    <httpHeaderProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>9b2c74bc-06ba-4ea2-8f86-3fef2bcc73db</webElementGuid>
+      <webElementGuid>041a3678-43a9-4018-8516-7026a2faef86</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -40,14 +86,14 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>cce47ea6-f464-43ad-9ca0-6c8d3db074a4</webElementGuid>
+      <webElementGuid>09416b89-0b30-442d-bd6b-6142feef4b39</webElementGuid>
    </httpHeaderProperties>
-   <katalonVersion>9.4.0</katalonVersion>
+   <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${repUrl}${rep}:id</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,23 +103,23 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.REPAIR_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>e9203a53-1eff-4230-b998-94d8a4a5b6c4</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>repUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.accCodeEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.repairEndpoint</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>b621dfa3-b416-4006-9199-febff1ac29c4</id>
       <masked>false</masked>
-      <name>accCode</name>
+      <name>rep</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>4fb5f6c7-fb88-42a3-87fb-f449df6ecbc1</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>
