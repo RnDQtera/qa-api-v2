@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -39,18 +39,18 @@
       <webElementGuid>048677ef-d31b-43c5-a203-b90bb9510fb9</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assUrl}${ass}?search=&amp;page=&amp;limit=11&amp;name=&amp;brand=&amp;model=&amp;category=&amp;tagType=&amp;group=&amp;status=&amp;maintenanceAuditStatus=&amp;repairTicketing=&amp;isTransactionable=&amp;maintenance=&amp;tracking=&amp;audit=&amp;sortBy=&amp;sortOrder=&amp;_id=&amp;excludeId=&amp;tag=&amp;policy=</restUrl>
+   <restUrl>${assUrl}${ass}?limit=100</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSETS_BASE_URL</defaultValue>

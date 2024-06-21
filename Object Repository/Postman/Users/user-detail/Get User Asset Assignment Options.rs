@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:id/assets/assigned/option?managerOptions=true&amp;assetNameOptions=true</restUrl>
+   <restUrl>${usUrl}${usDet}6626413a821e0e900633e59f/assets/assigned/option?managerOptions=true&amp;assetNameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -53,11 +53,25 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.USERS_BASE_URL</defaultValue>
       <description></description>
-      <id>336793ec-1183-441f-96c4-e64c3464d25e</id>
+      <id>44c070e0-6d1b-4be4-b1f8-81b384f5607b</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>usUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.userDetailEndpoint</defaultValue>
+      <description></description>
+      <id>5037301d-8242-4b4a-a8e0-41c2229b093a</id>
+      <masked>false</masked>
+      <name>usDet</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>9ed5d858-f6e7-4feb-8033-297218e27237</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUT Depreciation Group by Id</name>
+   <name>Get Asset Family</name>
    <tag></tag>
-   <elementGuidId>876dabfe-abc4-4e93-9911-acde7805d943</elementGuidId>
+   <elementGuidId>d8a3f32a-f698-4162-9214-7d1cb7e7ec50</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,23 +16,19 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;kelompok 10022\&quot;,\n  \&quot;usefulLife\&quot;: 56,\n  \&quot;straightLineRate\&quot;: 21.5,\n  \&quot;doubleDecreasedRate\&quot;: 6\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Accept</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>3403ac74-7a2d-4f11-a4a4-f53633f81730</webElementGuid>
+      <webElementGuid>ff36f383-a205-4589-9592-313573b9ca76</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -40,14 +36,14 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>51713144-faaa-4cad-b4cc-32d06920f9b5</webElementGuid>
+      <webElementGuid>048677ef-d31b-43c5-a203-b90bb9510fb9</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${accSetUrl}${deprGroup}667525dea4d997ad3e2afbce</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${assUrl}${ass}family</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,23 +53,23 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ACCOUNTING_SETTINGS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.ASSETS_BASE_URL</defaultValue>
       <description></description>
-      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
+      <id>83c59f32-0393-47a3-afae-4185a6e4b473</id>
       <masked>false</masked>
-      <name>accSetUrl</name>
+      <name>assUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.deprecGroupEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.assetsEndpoint</defaultValue>
       <description></description>
-      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <id>92e03e51-330a-4411-b41d-30f46c719963</id>
       <masked>false</masked>
-      <name>deprGroup</name>
+      <name>ass</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <id>468d4b40-f730-4691-8ae0-05120e8ffcf6</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

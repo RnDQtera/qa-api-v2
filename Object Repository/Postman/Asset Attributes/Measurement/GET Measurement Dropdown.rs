@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -27,15 +27,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>4074bb79-d953-4f57-ab8c-77eba17c518b</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>ba58c398-87ad-40c2-b724-6148f3636ad4</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${ASSET_ATTRIBUTES_BASE_URL}/v2/measurement/dropdown</restUrl>
+   <restUrl>${asAtrUrl}${msrm}dropdown</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,9 +47,23 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>b817e190-22b1-40f1-bfb8-6788603ca6f5</id>
+      <id>b27e9c2a-26df-42fa-b6df-65a8836d59c4</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>asAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.measurementEndpoint</defaultValue>
+      <description></description>
+      <id>d4f50e83-b877-44d9-a753-a161b799c64d</id>
+      <masked>false</masked>
+      <name>msrm</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>6913380d-3541-461e-80eb-ff0a9679fb03</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

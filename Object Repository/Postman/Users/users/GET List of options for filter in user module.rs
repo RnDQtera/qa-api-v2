@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${us}${opt}?search=&amp;page=&amp;limit=&amp;isActive=&amp;userType=&amp;systemRole=&amp;transactionRole=&amp;group=&amp;position=&amp;division=&amp;modifiedBy=&amp;lastUpdate=&amp;sortBy=&amp;sortOrder=&amp;userOptions=true&amp;positionOptions=true&amp;divisionOptions=true&amp;modifierOptions=true&amp;systemRoleOptions=true&amp;transactionRoleOptions=true</restUrl>
+   <restUrl>${usUrl}${us}${opt}?userOptions=true&amp;positionOptions=true&amp;divisionOptions=true&amp;modifierOptions=true&amp;systemRoleOptions=true&amp;transactionRoleOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

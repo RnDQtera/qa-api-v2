@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${usDet}6626413a821e0e900633e59f/assets/borrowed?page=&amp;sortOrder=&amp;sortBy=&amp;dueReturnDate=&amp;manager=&amp;assetName=</restUrl>
+   <restUrl>${usUrl}${usDet}6626413a821e0e900633e59f/assets/borrowed</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

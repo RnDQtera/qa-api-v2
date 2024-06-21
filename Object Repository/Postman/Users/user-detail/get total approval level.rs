@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:groupId/:roleName/get-approval-level</restUrl>
+   <restUrl>${usUrl}${usDet}663c9117ec85df3cf9808af6/borrowingRole/get-approval-level</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

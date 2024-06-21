@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assAtrUrl}${brnd}665596d349d4b5dc9116ac28${lisAss}</restUrl>
+   <restUrl>${assAtrUrl}${brnd}660fb38faea45ba9022cd08c${lisAss}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

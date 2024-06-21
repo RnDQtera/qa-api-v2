@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${usDet}6626413a821e0e900633e59f/system-role-list?search=&amp;page=&amp;limit=&amp;isActive=&amp;systemRole=&amp;group=&amp;sortBy=&amp;sortOrder=</restUrl>
+   <restUrl>${usUrl}${usDet}6626413a821e0e900633e59f/system-role-list</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

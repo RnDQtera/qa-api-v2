@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${usUrl}${suUs}:userId?sortBy=&amp;page=&amp;sortOrder=&amp;action=&amp;assetName=</restUrl>
+   <restUrl>${usUrl}${suUs}6626413a821e0e900633e59f?sortBy=&amp;page=&amp;sortOrder=&amp;action=&amp;assetName=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
