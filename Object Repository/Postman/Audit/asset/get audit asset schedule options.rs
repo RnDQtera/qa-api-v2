@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${auUrl}${auAs}schedule/:id${opt}?modelOptions=true&amp;brandOptions=true&amp;nameOptions=true</restUrl>
+   <restUrl>${auUrl}${auAs}schedule/6662c3107dd276f0d34d4b82${opt}?modelOptions=true&amp;brandOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

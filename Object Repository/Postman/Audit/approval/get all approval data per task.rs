@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${auUrl}${auApr}task/:id/transaction</restUrl>
+   <restUrl>${auUrl}${auApr}task/666414d1c71d8407632f588c/transaction</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

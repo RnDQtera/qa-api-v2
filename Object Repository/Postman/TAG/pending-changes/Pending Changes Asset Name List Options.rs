@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get Asset Family</name>
+   <name>Pending Changes Asset Name List Options</name>
    <tag></tag>
-   <elementGuidId>d8a3f32a-f698-4162-9214-7d1cb7e7ec50</elementGuidId>
+   <elementGuidId>8c189462-756b-472c-80bf-d5bad81a4861</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -28,7 +28,7 @@
       <name>Accept</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>ff36f383-a205-4589-9592-313573b9ca76</webElementGuid>
+      <webElementGuid>7cf69297-d4d6-4902-8ec5-9c39d20aa3ba</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -36,14 +36,14 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${bt}</value>
-      <webElementGuid>048677ef-d31b-43c5-a203-b90bb9510fb9</webElementGuid>
+      <webElementGuid>edafcdeb-e5cf-4d9f-a5fa-468418bd5f30</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assUrl}${ass}family</restUrl>
+   <restUrl>${tagUrl}${penChng}/asset-name-list/options?assetNameOptions=true&amp;type=Change to QR</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -53,23 +53,23 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.ASSETS_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.TAG_BASE_URL</defaultValue>
       <description></description>
-      <id>83c59f32-0393-47a3-afae-4185a6e4b473</id>
+      <id>db6f65dd-dc05-4e8a-9822-2ef646bb27ad</id>
       <masked>false</masked>
-      <name>assUrl</name>
+      <name>tagUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.assetsEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.pendingChangesEndpoint</defaultValue>
       <description></description>
-      <id>92e03e51-330a-4411-b41d-30f46c719963</id>
+      <id>f6355d6e-9dda-4189-b59d-26a2013eef40</id>
       <masked>false</masked>
-      <name>ass</name>
+      <name>penChng</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>468d4b40-f730-4691-8ae0-05120e8ffcf6</id>
+      <id>c4c182cb-281b-4d01-a67d-954eec33738a</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

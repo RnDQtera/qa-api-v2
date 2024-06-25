@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${disUrl}${disReq}scan?tag=&amp;transaction=</restUrl>
+   <restUrl>${disUrl}${disReq}scan?tag=C000V2qK73Dt&amp;transaction=66751b6d517c0e699ea2b609</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

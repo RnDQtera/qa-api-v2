@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assUrl}${trReq}assigned/by-asset</restUrl>
+   <restUrl>${assUrl}${trReq}assigned/by-asset/options?managerOptions=true&amp;userOptions=true&amp;modelOptions=true&amp;brandOptions=true&amp;groupOptions=true&amp;statusOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

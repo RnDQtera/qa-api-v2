@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${repUrl}${apr}664dbaf292378880487d5ca9/approval-history?approvalRound=</restUrl>
+   <restUrl>${repUrl}${apr}664dbaf292378880487d5ca9/approval-history</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

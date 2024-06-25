@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${tr}6662e62b41ca3a2ab87f421c/request/scan?tag=QR</restUrl>
+   <restUrl>${borUrl}${tr}6673fad7430548652c91d085/request/scan?tag=E2806894000050221E411D05</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

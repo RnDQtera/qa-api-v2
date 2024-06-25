@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${disUrl}${aprTr}:id${opt}?nameOptions=true&amp;brandOptions=true&amp;modelOptions=true&amp;groupType=Origin&amp;approvalType=Completion</restUrl>
+   <restUrl>${disUrl}${aprTr}667520ce517c0e699ea2b9cd${opt}?nameOptions=true&amp;brandOptions=true&amp;modelOptions=true&amp;groupType=Origin&amp;approvalType=Completion</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

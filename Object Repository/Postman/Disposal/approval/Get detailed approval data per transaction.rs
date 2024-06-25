@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${disUrl}${aprTr}:id</restUrl>
+   <restUrl>${disUrl}${aprTr}667520ce517c0e699ea2b9cd</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -60,11 +60,11 @@
       <name>disUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.approvalEndpoint</defaultValue>
+      <defaultValue>GlobalVariable.approvalTransaction</defaultValue>
       <description></description>
       <id>32b93233-d68c-48f0-97a3-ebf670d144d4</id>
       <masked>false</masked>
-      <name>apr</name>
+      <name>aprTr</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>

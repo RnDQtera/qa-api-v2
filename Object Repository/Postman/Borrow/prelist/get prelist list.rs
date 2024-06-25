@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${pre}?borrower=&amp;borrower=&amp;group=&amp;group=&amp;tagId=&amp;sortOrder=&amp;sortBy=&amp;limit=&amp;page=&amp;search=</restUrl>
+   <restUrl>${borUrl}${pre}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${preReq}?prelist=&amp;group=&amp;model=&amp;brand=&amp;asset=&amp;sortOrder=&amp;sortBy=&amp;limit=&amp;page=&amp;search=</restUrl>
+   <restUrl>${borUrl}${preReq}?prelist=[&quot;6662af5a4777533e9d8c47dc&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

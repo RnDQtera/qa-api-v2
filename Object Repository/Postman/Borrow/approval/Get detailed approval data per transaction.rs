@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${appTr}:id?approvalRound=&amp;approvalRound=&amp;isApproved=&amp;isApproved=&amp;status=&amp;status=&amp;model=&amp;model=&amp;brand=&amp;brand=&amp;asset=&amp;asset=&amp;sortOrder=&amp;sortBy=&amp;limit=&amp;page=&amp;search=</restUrl>
+   <restUrl>${borUrl}${appTr}6673fad7430548652c91d085</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${rutUrl}${rutSch}:id</restUrl>
+   <restUrl>${rutUrl}${rutSch}6674d9f5d4a86cbbe826801f</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

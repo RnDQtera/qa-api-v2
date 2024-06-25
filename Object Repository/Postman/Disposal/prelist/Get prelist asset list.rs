@@ -67,7 +67,7 @@
       <name>disPr</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.Options</defaultValue>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
       <id>a59c2ba7-668d-4d1c-a24e-ba867f1fe291</id>
       <masked>false</masked>

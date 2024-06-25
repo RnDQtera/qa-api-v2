@@ -7,6 +7,15 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -21,12 +30,20 @@
       <value>application/json</value>
       <webElementGuid>a27f95af-c6b4-448c-a1bc-a5a63b8d123d</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>a3336a21-67dc-4902-9330-7e45cbbbaec2</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseUrl}/v2/transaction/:id/request?requestIds=&lt;string>&amp;requestIds=&lt;string>&amp;returnDate=&lt;number>&amp;returnDate=&lt;number>&amp;dueDate=&lt;number>&amp;dueDate=&lt;number>&amp;group=&lt;number>&amp;group=&lt;number>&amp;model=&lt;string>&amp;model=&lt;string>&amp;brand=&lt;string>&amp;brand=&lt;string>&amp;name=&lt;number>&amp;name=&lt;number>&amp;sortOrder=&lt;number>&amp;sortBy=&lt;string>&amp;limit=&lt;number>&amp;page=&lt;number>&amp;search=&lt;string></restUrl>
+   <restUrl>${borUrl}${tr}6656e4ab8fd9aaa8fdba5292/request</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -36,11 +53,38 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.BORROWING_BASE_URL</defaultValue>
       <description></description>
-      <id>d37ebb44-99f8-4b22-8f97-cc28b75c145e</id>
+      <id>5d758f20-c2fd-484d-8230-7d25ec9c6c3e</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>borUrl</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.transactionEndpoint</defaultValue>
+      <description></description>
+      <id>c2b86ea9-3c3e-4fa0-b959-44b9186f8e73</id>
+      <masked>false</masked>
+      <name>tr</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>b5faa0ff-08c8-4645-9503-5fee086fc965</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

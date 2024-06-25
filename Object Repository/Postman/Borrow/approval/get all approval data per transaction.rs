@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${appTr}:id/transaction</restUrl>
+   <restUrl>${borUrl}${appTr}6673fad7430548652c91d085/transaction</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

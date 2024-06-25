@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${disUrl}${disPr}request/:id/options?modelOptions=true&amp;brandOptions=true&amp;nameOptions=true</restUrl>
+   <restUrl>${disUrl}${disPr}request/66794275872b0ffc0844c5d6/options?modelOptions=true&amp;brandOptions=true&amp;nameOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -67,7 +67,7 @@
       <name>disPr</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.Options</defaultValue>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
       <id>a59c2ba7-668d-4d1c-a24e-ba867f1fe291</id>
       <masked>false</masked>

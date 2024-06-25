@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${auUrl}${auAs}auditable/6668ff9cca2fd7d9abe11e4c</restUrl>
+   <restUrl>${auUrl}${auAs}auditable/6662c3107dd276f0d34d4b82</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

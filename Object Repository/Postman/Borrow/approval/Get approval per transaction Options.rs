@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${appTr}:id/options?modelOptions=true&amp;brandOptions=true&amp;assetOptions=true</restUrl>
+   <restUrl>${borUrl}${appTr}6673fad7430548652c91d085/options?modelOptions=true&amp;brandOptions=true&amp;assetOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

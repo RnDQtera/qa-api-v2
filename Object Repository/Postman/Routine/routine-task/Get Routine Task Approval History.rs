@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${rutUrl}${rutTask}:id/approval-history</restUrl>
+   <restUrl>${rutUrl}${rutTask}6674e005d4a86cbbe82682f4/approval-history</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

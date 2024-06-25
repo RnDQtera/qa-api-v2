@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${rutUrl}${serCen}:id</restUrl>
+   <restUrl>${rutUrl}${serCen}66601f712cd0fc9b599a0d5e</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

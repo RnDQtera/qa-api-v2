@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assUrl}${trReq}:id/transaction-log</restUrl>
+   <restUrl>${assUrl}${trReq}667921a5f2e4aa5397ba1613/transaction-log</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

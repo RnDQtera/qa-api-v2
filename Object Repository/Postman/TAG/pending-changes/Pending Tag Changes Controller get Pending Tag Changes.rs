@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${tagUrl}${penChng}?type=RFID&amp;tagType=&amp;group=&amp;assetName=&amp;tag=&amp;inAudit=&amp;inMaintenance=&amp;assetStatus=&amp;search=&amp;limit=&amp;page=&amp;sortOrder=&amp;sortBy=</restUrl>
+   <restUrl>${tagUrl}${penChng}?type=RFID</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

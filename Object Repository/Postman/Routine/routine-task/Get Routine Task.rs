@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${rutUrl}${rutTask}</restUrl>
+   <restUrl>${rutUrl}${rutTask}/6674e005d4a86cbbe82682f4/options?taskNameOptions=true&amp;statusOptions=true&amp;frequencyOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

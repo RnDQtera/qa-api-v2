@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${auUrl}${auTsk}:taskId/reader/total-assets?readerIds=</restUrl>
+   <restUrl>${auUrl}${auTsk}667a4021fb550433bb5cf14d/reader/total-assets?readerIds=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -53,11 +53,25 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.AUDIT_BASE_URL</defaultValue>
       <description></description>
-      <id>f11b7813-8a14-4f8e-8c6a-2431253b3a26</id>
+      <id>b055010d-6d02-4347-95c7-ffa3ac6d3201</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>auUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.auditTask</defaultValue>
+      <description></description>
+      <id>05e79e28-e93f-438e-a612-0c45cf05a869</id>
+      <masked>false</masked>
+      <name>auTsk</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>b043de89-0de5-4f5c-8a61-70bf99825af0</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

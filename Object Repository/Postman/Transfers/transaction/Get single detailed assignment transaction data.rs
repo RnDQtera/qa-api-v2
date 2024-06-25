@@ -7,6 +7,15 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -21,12 +30,20 @@
       <value>application/json</value>
       <webElementGuid>3190d350-9f49-4117-ade6-eb5c37101fc8</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>a4884a34-a854-4581-8454-b1d3ce246dc4</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseUrl}/v2/transaction/:id</restUrl>
+   <restUrl>${tfUrl}${transc}6666ae1dcb151d74c14a70d2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -36,11 +53,38 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.TRANSFER_BASE_URL</defaultValue>
       <description></description>
-      <id>eedb20b5-1af2-4c37-912d-ff894a52cdc0</id>
+      <id>05e0fdd3-1db7-43c1-814d-a4edc4c7e166</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>tfUrl</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.transactionEndpoint</defaultValue>
+      <description></description>
+      <id>4ed7a6b6-7b0d-4a8f-a8c4-587eee317f42</id>
+      <masked>false</masked>
+      <name>transc</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>dce9d5c8-d53b-46e1-86f9-04033f27bcfe</id>
+      <masked>false</masked>
+      <name>bt</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

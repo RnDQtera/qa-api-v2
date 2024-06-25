@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${borUrl}${apr}extend?model=&amp;model=&amp;brand=&amp;brand=&amp;name=&amp;name=&amp;sortOrder=&amp;sortBy=&amp;limit=&amp;page=&amp;search=</restUrl>
+   <restUrl>${borUrl}${apr}extend</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

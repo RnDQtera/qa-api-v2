@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${auUrl}${auSch}asset-detail/:assetId/options?frequencyOptions=true&amp;statusOptions=true&amp;auditTypeOptions=true</restUrl>
+   <restUrl>${auUrl}${auSch}asset-detail/6678ee86c911168bf4b28843/options?frequencyOptions=true&amp;statusOptions=true&amp;auditTypeOptions=true</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -53,11 +53,25 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.AUDIT_BASE_URL</defaultValue>
       <description></description>
-      <id>1d1d48c8-fe29-4796-b567-e79dcd4e4ecb</id>
+      <id>749f0c80-e44b-4abd-a132-27f75a0ddd95</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>auUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.auditSchedule</defaultValue>
+      <description></description>
+      <id>3e6b7fdb-1aea-4627-abb1-9ad6b6a2d77d</id>
+      <masked>false</masked>
+      <name>auSch</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>3cfa7b51-bc4a-45df-94e4-fd546cab5dd4</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
