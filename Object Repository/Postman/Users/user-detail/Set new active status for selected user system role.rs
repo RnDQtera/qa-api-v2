@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;systemRoleIdList\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ],\n  \&quot;newStatus\&quot;: \&quot;\u003cboolean\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;systemRoleIdList\&quot;: [\n    \&quot;66263b7070c4fa1391938cd5\&quot;\n  ],\n  \&quot;newStatus\&quot;: false\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:userId/system-role/set-active-status</restUrl>
+   <restUrl>${usUrl}${usDet}6646f8f0a8dd6f66f53061a0/system-role/set-active-status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;code\&quot;: \&quot;000008\&quot;,\n  \&quot;name\&quot;: \&quot;ilhampur\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;code\&quot;: \&quot;000090\&quot;,\n  \&quot;name\&quot;: \&quot;purqon\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${accSetUrl}${accCode}6674ff24a4d997ad3e2afb90</restUrl>
+   <restUrl>${accSetUrl}${accCode}667bb81278d64dfe79b29134</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

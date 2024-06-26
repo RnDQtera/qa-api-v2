@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;AC Portable\&quot;,\n  \&quot;aliasCode\&quot;: \&quot;AC-PRTBL-2\&quot;,\n  \&quot;category\&quot;: 6,\n  \&quot;measurement\&quot;: \&quot;6467461d96cc926120af17e7\&quot;,\n  \&quot;addOn\&quot;: [\n    \&quot;Audit\&quot;,\n    \&quot;Repair Ticketing\&quot;,\n    \&quot;Maintenance Routine\&quot;,\n    \&quot;Tracking\&quot;\n  ],\n  \&quot;tagType\&quot;: \&quot;string\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Meja Portabl1e Standing990\&quot;,\n  \&quot;aliasCode\&quot;: \&quot;MJ-PRTBL-1\&quot;,\n  \&quot;category\&quot;: 3,\n  \&quot;measurement\&quot;: \&quot;664d6d3bd678a24bf584b0fa\&quot;,\n  \&quot;addOn\&quot;: [\n    \&quot;Audit\&quot;,\n    \&quot;Repair Ticketing\&quot;,\n    \&quot;Maintenance Routine\&quot;,\n    \&quot;Tracking\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assAtrUrl}${assNam}65dd5728ccb6e93d55761940</restUrl>
+   <restUrl>${assAtrUrl}${assNam}667bc4b0e6ad6d459fd1f658</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

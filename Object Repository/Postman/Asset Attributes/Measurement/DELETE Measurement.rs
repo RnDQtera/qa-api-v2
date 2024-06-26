@@ -17,11 +17,11 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;measurementIds\&quot;: [\n        \&quot;65f1077cc1c443bd17d1779d\&quot;\n    ]\n}\n\n&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;measurementIds\&quot;: [\n        \&quot;664d6b70d678a24bf584b09c\&quot;\n    ]\n}\n\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -43,25 +43,39 @@
       <webElementGuid>672514b7-3755-4a87-bae9-38bb23c7e48a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${ASSET_ATTRIBUTES_BASE_URL}/v2/measurement</restUrl>
+   <restUrl>${asAtrUrl}${msrm}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>2e9cb9c0-f27e-462e-a763-8831aca66997</id>
+      <id>b27e9c2a-26df-42fa-b6df-65a8836d59c4</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>asAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.measurementEndpoint</defaultValue>
+      <description></description>
+      <id>d4f50e83-b877-44d9-a753-a161b799c64d</id>
+      <masked>false</masked>
+      <name>msrm</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>6913380d-3541-461e-80eb-ff0a9679fb03</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

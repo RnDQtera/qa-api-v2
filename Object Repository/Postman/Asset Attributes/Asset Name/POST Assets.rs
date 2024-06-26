@@ -16,24 +16,16 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <autoUpdateContent>false</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;&quot;,
-  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Meja Portable Standing\&quot;,\n  \&quot;aliasCode\&quot;: \&quot;MJ-PRTBL-1\&quot;,\n  \&quot;category\&quot;: 12,\n  \&quot;measurement\&quot;: \&quot;66582bb8e5a971d15a24f39e\&quot;,\n  \&quot;addOn\&quot;: [\n    \&quot;Audit\&quot;,\n    \&quot;Repair Ticketing\&quot;,\n    \&quot;Maintenance Routine\&quot;,\n    \&quot;Tracking\&quot;\n  ]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>text/plain</value>
-      <webElementGuid>50c06547-8551-40c4-ae6c-342b1b53e01e</webElementGuid>
-   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -43,18 +35,18 @@
       <webElementGuid>b77e61bd-6b08-4bf5-8db5-8a08d8d15cac</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${assAtrUrl}${assNam}?name=6646cef5ab63ead1bf171776&amp;category=dodo&amp;brand=&amp;model=&amp;group=&amp;quota=&amp;parent=&amp;firstImage=&amp;secondImage=</restUrl>
+   <restUrl>${assAtrUrl}${assNam}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>

@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rolUrl}${tl}6458b5d09baf734db2b39419/borrowingRole/update-approval-level</restUrl>
+   <restUrl>${rolUrl}${tl}663c9117ec85df3cf9808af6/borrowingRole/update-approval-level</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

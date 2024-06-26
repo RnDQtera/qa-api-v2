@@ -17,11 +17,11 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;assetNameIds\&quot;: [\n    \&quot;6621d88cb33f3bc820ddc252\&quot;\n  ],\n  \&quot;depreciationGroup\&quot;: 6,\n  \&quot;accountCode\&quot;: 17\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Masa\&quot;,\n  \&quot;assetNameIds\&quot;: [\n    \&quot;667bc40ee6ad6d459fd1f646\&quot;\n  ],\n  \&quot;depreciationGroup\&quot;: 143,\n  \&quot;accountCode\&quot;: 279\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -43,7 +43,7 @@
       <webElementGuid>efc2d7c4-9f24-4bb8-8cd4-c5435d43d537</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
@@ -54,7 +54,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>

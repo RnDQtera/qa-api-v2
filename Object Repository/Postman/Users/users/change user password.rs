@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDZmOGYwYThkZDZmNjZmNTMwNjFhMCIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2JlNTIyNGNlZDI4MDllOGM0ODRhMSIsImlhdCI6MTcxOTM5NTYxOCwiZXhwIjoxNzE5NDM4ODE4fQ.LxfPppD6ClVAVsnDIzyxOp6Yq26i0VG-gHwFAjq9Ob4</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;oldPassword\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;newPassword\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;oldPassword\&quot;: \&quot;Presiden12!\&quot;,\n  \&quot;newPassword\&quot;: \&quot;presidenasdf\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>c691cef5-591a-439c-baa1-d8deef2a8d12</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDZmOGYwYThkZDZmNjZmNTMwNjFhMCIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2JlNTIyNGNlZDI4MDllOGM0ODRhMSIsImlhdCI6MTcxOTM5NTYxOCwiZXhwIjoxNzE5NDM4ODE4fQ.LxfPppD6ClVAVsnDIzyxOp6Yq26i0VG-gHwFAjq9Ob4</value>
+      <webElementGuid>0f1f27c6-817b-4689-825a-76f8d053e36a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

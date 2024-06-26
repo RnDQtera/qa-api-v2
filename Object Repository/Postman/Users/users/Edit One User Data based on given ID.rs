@@ -36,7 +36,7 @@
     },
     {
       &quot;name&quot;: &quot;email&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;12@mailnesia.com&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -119,7 +119,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${us}:id</restUrl>
+   <restUrl>${usUrl}${us}6626413a821e0e900633e59f</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

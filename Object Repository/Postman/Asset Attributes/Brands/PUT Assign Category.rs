@@ -17,11 +17,11 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;brands\&quot;: \&quot;6639d1244bc09134be7c9b9a\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;20\&quot;,\n    \&quot;21\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;brands\&quot;: \&quot;665fdeb5376e0e932f2ca05b\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;20\&quot;,\n    \&quot;21\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -43,7 +43,7 @@
       <webElementGuid>2c8216c9-9883-44d7-81cc-696a2e6e1a91</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
@@ -54,7 +54,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>

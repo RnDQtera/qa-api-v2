@@ -16,24 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;muhamad ilham mubarrok edited\&quot;,\n  \&quot;desc\&quot;: \&quot;orang\&quot;,\n  \&quot;managePermission\&quot;: {\n    \&quot;assetAttribute\&quot;: {\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false,\n      \&quot;create\&quot;: false\n    },\n    \&quot;assetPolicies\&quot;: {\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true,\n      \&quot;create\&quot;: false,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;depreciationGroup\&quot;: {\n      \&quot;update\&quot;: true,\n      \&quot;create\&quot;: false,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;depreciationMethod\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;documentDeletion\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false,\n      \&quot;update\&quot;: true\n    },\n    \&quot;group\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;view\&quot;: true,\n      \&quot;update\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;user\&quot;: {\n      \&quot;update\&quot;: true,\n      \&quot;create\&quot;: false,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;iotReader\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;delete\&quot;: false,\n      \&quot;view\&quot;: true\n    },\n    \&quot;license\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;view\&quot;: true,\n      \&quot;update\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;purchaseDocument\&quot;: {\n      \&quot;view\&quot;: true,\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;purchaseInformation\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true,\n      \&quot;delete\&quot;: false\n    },\n    \&quot;role\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;delete\&quot;: false,\n      \&quot;view\&quot;: true\n    },\n    \&quot;tag\&quot;: {\n      \&quot;create\&quot;: false,\n      \&quot;delete\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true\n    },\n    \&quot;registerAsset\&quot;: {\n      \&quot;delete\&quot;: false,\n      \&quot;create\&quot;: false,\n      \&quot;update\&quot;: true,\n      \&quot;view\&quot;: true\n    }\n  },\n  \&quot;groups\&quot;: [\n    \&quot;6458d4ea9baf734db2b39434\&quot;\n  ],\n  \&quot;isActive\&quot;: false\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>ab7af04b-e8d6-44a8-90d6-96424bae2a29</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -47,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rolUrl}${rol}66320e1d3488e03df890ef4e</restUrl>
+   <restUrl>https://dev-api-roles.tagsamurai.com/v2/roles/6673aba42cbb02020fa95673</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

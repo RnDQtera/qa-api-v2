@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;UserIds\&quot;: \&quot;\u003carray\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;UserIds\&quot;: [\n    \&quot;667bdf1f4ced2809e8c47f5e\&quot;,\n    \&quot;666683c3598bf7f545f3048d\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${usUrl}${us}:id/resend-user-email</restUrl>
+   <restUrl>${usUrl}${us}667bdf1f4ced2809e8c47f5e/resend-user-email</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

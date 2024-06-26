@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${assUrl}${ass}asset-with-children?search=&amp;page=&amp;limit=10&amp;name=&amp;brand=&amp;model=&amp;category=&amp;tagType=&amp;group=&amp;status=&amp;isTransactionable=&amp;sortBy=&amp;sortOrder=&amp;_id=&amp;excludeId=&amp;tag=</restUrl>
+   <restUrl>${assUrl}${ass}asset-with-children?search=&amp;page=&amp;limit=&amp;name=&amp;brand=&amp;model=&amp;category=&amp;tagType=&amp;group=&amp;status=&amp;isTransactionable=&amp;sortBy=&amp;sortOrder=&amp;_id=&amp;excludeId=&amp;tag=</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

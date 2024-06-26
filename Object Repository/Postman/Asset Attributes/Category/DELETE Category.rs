@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;categoryIds\&quot;: [\n    \&quot;65cb276d84556bad1ac40dd9\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;categoryIds\&quot;: [\n    \&quot;667bc0cae6ad6d459fd1f5f3\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

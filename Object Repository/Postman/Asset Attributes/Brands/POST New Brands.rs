@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Acer\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;19\&quot;,\n    \&quot;2\&quot;\n  ],\n  \&quot;models\&quot;: [\n    {\n      \&quot;categoryId\&quot;: \&quot;65656ffb9fd4ddca06124ebb\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Vivo\&quot;,\n        \&quot;Asus\&quot;\n      ]\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Acer Predator of Gamers\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;19\&quot;,\n    \&quot;2\&quot;\n  ],\n  \&quot;models\&quot;: [\n    {\n      \&quot;categoryId\&quot;: \&quot;65656ffb9fd4ddca06124ebb\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Vivo\&quot;,\n        \&quot;Asus\&quot;\n      ]\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

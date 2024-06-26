@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${us}:userId/delete-profile-picture</restUrl>
+   <restUrl>${usUrl}${us}6646f8f0a8dd6f66f53061a0/delete-profile-picture</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

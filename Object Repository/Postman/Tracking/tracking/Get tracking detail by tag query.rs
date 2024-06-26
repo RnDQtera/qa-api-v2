@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${trckUrl}${trck}scan?tag=</restUrl>
+   <restUrl>${trckUrl}${trck}scan?tag=C000V2k9UbvV</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

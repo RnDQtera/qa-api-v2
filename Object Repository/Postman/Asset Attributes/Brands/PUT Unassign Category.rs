@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;brands\&quot;: \&quot;6639d1244bc09134be7c9b9a\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;20\&quot;,\n    \&quot;4\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;brands\&quot;: \&quot;665fdeb5376e0e932f2ca05b\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;20\&quot;,\n    \&quot;4\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -59,9 +59,23 @@
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>
       <description></description>
-      <id>6a00c3fe-fce4-4a24-8413-79c874b94d50</id>
+      <id>56ea6be7-c5ac-4787-8a52-3317b163c534</id>
       <masked>false</masked>
-      <name>ASSET_ATTRIBUTES_BASE_URL</name>
+      <name>assAtrUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.brandsEndpoint</defaultValue>
+      <description></description>
+      <id>79ea1a4f-1049-4e5e-a402-a7578cee4749</id>
+      <masked>false</masked>
+      <name>brnd</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>88943332-68f8-4ca3-a7e0-e704dcd73076</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

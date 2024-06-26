@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;kelompok 10022\&quot;,\n  \&quot;usefulLife\&quot;: 56,\n  \&quot;straightLineRate\&quot;: 21.5,\n  \&quot;doubleDecreasedRate\&quot;: 6\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Selaras Juna\&quot;,\n  \&quot;usefulLife\&quot;: 56,\n  \&quot;straightLineRate\&quot;: 21.5,\n  \&quot;doubleDecreasedRate\&quot;: 6\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${accSetUrl}${deprGroup}667525dea4d997ad3e2afbce</restUrl>
+   <restUrl>${accSetUrl}${deprGroup}667bb97078d64dfe79b2914d</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

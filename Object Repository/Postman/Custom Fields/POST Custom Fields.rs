@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Keterangan\&quot;,\n  \&quot;type\&quot;: \&quot;Accounting\&quot;,\n  \&quot;dataType\&quot;: \&quot;Dropdown\&quot;,\n  \&quot;optionValue\&quot;: [\n    \&quot;value1\&quot;,\n    \&quot;value2\&quot;\n  ],\n  \&quot;isRequired\&quot;: true,\n  \&quot;category\&quot;: [\n    2\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Keterangan\&quot;,\n  \&quot;type\&quot;: \&quot;Accounting\&quot;,\n  \&quot;dataType\&quot;: \&quot;Dropdown\&quot;,\n  \&quot;optionValue\&quot;: [\n    \&quot;value1\&quot;,\n    \&quot;value2\&quot;\n  ],\n  \&quot;isRequired\&quot;: true,\n  \&quot;category\&quot;: [\n    1\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

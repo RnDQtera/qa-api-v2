@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${GlobalVariable.Bearer}</value>
+            <value>${bt}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Electronicszxx\&quot;,\n  \&quot;parent\&quot;: \&quot;6603dd7b7f183178400d04e9\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Electronicszxxssasa\&quot;,\n  \&quot;parent\&quot;: \&quot;6603dd7b7f183178400d04e9\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -39,11 +39,11 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.Bearer}</value>
-      <webElementGuid>1a5212b2-16c5-4ad3-8ea7-e00d66978938</webElementGuid>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>822e41ac-4360-4983-8ac0-15c7bf359bbb</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
@@ -54,7 +54,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSET_ATTRIBUTES_BASE_URL</defaultValue>

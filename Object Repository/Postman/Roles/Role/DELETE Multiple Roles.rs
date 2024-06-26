@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;roleIds\&quot;: [\n    \&quot;65d5788cc18b35e4ff445104\&quot;,\n    \&quot;65d5788cc18b35e4ff445104\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;roleIds\&quot;: [\n    \&quot;6673aba42cbb02020fa95673\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

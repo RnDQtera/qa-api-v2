@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;kelompok 10022\&quot;,\n  \&quot;usefulLife\&quot;: 5,\n  \&quot;straightLineRate\&quot;: 6.5,\n  \&quot;doubleDecreasedRate\&quot;: 12.5\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Selaras\&quot;,\n  \&quot;usefulLife\&quot;: 51,\n  \&quot;straightLineRate\&quot;: 6.5,\n  \&quot;doubleDecreasedRate\&quot;: 12.5\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

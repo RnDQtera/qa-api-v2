@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Asus\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;2\&quot;,\n    \&quot;12\&quot;\n  ],\n  \&quot;models\&quot;: [\n    {\n      \&quot;categoryId\&quot;: \&quot;661df62efc3a1af61432a7d3\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Thinkpad\&quot;\n      ]\n    },\n    {\n      \&quot;categoryId\&quot;: \&quot;661f2ea51129271c5595c325\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Omen\&quot;\n      ]\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Asus Predotor Legion\&quot;,\n  \&quot;category\&quot;: [\n    \&quot;2\&quot;,\n    \&quot;12\&quot;\n  ],\n  \&quot;models\&quot;: [\n    {\n      \&quot;categoryId\&quot;: \&quot;661df62efc3a1af61432a7d3\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Thinkpad\&quot;\n      ]\n    },\n    {\n      \&quot;categoryId\&quot;: \&quot;661f2ea51129271c5595c325\&quot;,\n      \&quot;modelName\&quot;: [\n        \&quot;Omen\&quot;\n      ]\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;role\&quot;: [\n    \&quot;Manager\&quot;,\n    \&quot;Approval\&quot;\n  ],\n  \&quot;user\&quot;: [\n    {\n      \&quot;_id\&quot;: \&quot;64ef1e413fce00444de9345b\&quot;,\n      \&quot;fullName\&quot;: \&quot;user 1\&quot;,\n      \&quot;key\&quot;: 4\n    }\n  ],\n  \&quot;action\&quot;: \&quot;Add\&quot;,\n  \&quot;level\&quot;: 1\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;role\&quot;: [\n    \&quot;Monitoring\&quot;\n  ],\n  \&quot;user\&quot;: [\n    {\n      \&quot;_id\&quot;: \&quot;6636147d07a836bab413eb30\&quot;\n    }\n  ],\n  \&quot;action\&quot;: \&quot;Add\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rolUrl}${tl}/664434e7aae775aa717eddae/borrowingRole/update-user</restUrl>
+   <restUrl>${rolUrl}${tl}/663c9117ec85df3cf9808af6/borrowingRole/update-user</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

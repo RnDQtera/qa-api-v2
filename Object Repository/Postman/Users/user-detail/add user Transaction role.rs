@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;transactionRole\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;roleType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;group\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;transactionRole\&quot;: \&quot;transferRole\&quot;,\n  \&quot;roleType\&quot;: \&quot;Manager\&quot;,\n  \&quot;group\&quot;: \&quot;664aac0bf880e7a2ab36761a\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:userId/add-transaction-role</restUrl>
+   <restUrl>${usUrl}${usDet}6646f8f0a8dd6f66f53061a0/add-transaction-role</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
