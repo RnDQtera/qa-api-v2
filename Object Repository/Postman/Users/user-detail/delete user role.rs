@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;removeRoleData\&quot;: [\n    {\n      \&quot;transactionType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;roleType\&quot;: \&quot;\u003cstring\u003e\&quot;\n    },\n    {\n      \&quot;transactionType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;roleType\&quot;: \&quot;\u003cstring\u003e\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;removeRoleData\&quot;: [\n    {\n      \&quot;transactionType\&quot;: \&quot;Disposal\&quot;,\n      \&quot;roleType\&quot;: \&quot;Manager\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:userId/delete-transaction-role</restUrl>
+   <restUrl>${usUrl}${usDet}64aadf619f3d1d9f997fdb8/delete-transaction-role</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

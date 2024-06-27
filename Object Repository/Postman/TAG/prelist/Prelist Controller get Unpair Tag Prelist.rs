@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${tagUrl}${prUpTag}?search=&amp;assetName=&amp;tagType=&amp;limit=&amp;sortOrder=&amp;page=&amp;sortBy=</restUrl>
+   <restUrl>${tagUrl}${prUpTag}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

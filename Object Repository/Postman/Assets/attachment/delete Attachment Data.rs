@@ -20,20 +20,8 @@
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;attachmentsIds\&quot;: [\n    \&quot;\u003carray\u003e\&quot;\n    ]\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>2717fad7-d726-4ca1-afde-fc7cc043d4ba</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -55,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${assUrl}${attch}bulk</restUrl>
+   <restUrl>${assUrl}${attch}bulk?attachmentsIds=[&quot;667cec5700ec2cbb266a2aeb&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

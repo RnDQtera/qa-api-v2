@@ -16,7 +16,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -30,20 +30,20 @@
     },
     {
       &quot;name&quot;: &quot;asset&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;66442836d9949dd46f3948f6&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;name&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;iam&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;file&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\aa.png&quot;,
+      &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]

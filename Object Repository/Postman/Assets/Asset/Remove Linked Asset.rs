@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;assetIds\&quot;: [\n    \&quot;65d578a9c18b35e4ff4342c\&quot;,\n    \&quot;65d578a9c18b35e4ff44436h\&quot;,\n    \&quot;65d5788cc18b35e4ff44643g\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;assetIds\&quot;: [\n    \&quot;667b8679af89a54c78995737\&quot;\n  ]\n}\t&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${ass}66442836d9949dd46f3948f6/remove-link-assets</restUrl>
+   <restUrl>${assUrl}${ass}667b8678af89a54c78995710/remove-link-assets</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

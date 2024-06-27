@@ -24,25 +24,25 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;firstName&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;haha&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;lastName&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;ye&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;division&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;Bos&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;phoneNumber&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;550&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -95,7 +95,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${suUs}:subUserId</restUrl>
+   <restUrl>${usUrl}${suUs}667cd90a4e3803176ba50979</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

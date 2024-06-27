@@ -26,50 +26,62 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;name&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;135&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;brand&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;category&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;aliasName&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;customFields&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;347&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;model&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;410&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
-      &quot;name&quot;: &quot;parent&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;name&quot;: &quot;customFields[0]name&quot;,
+      &quot;value&quot;: &quot;TESSSSSSSSSSSSSSSSSSSSSSSSSSS2&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
-      &quot;name&quot;: &quot;firstImage&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;File&quot;,
+      &quot;name&quot;: &quot;customFields[0][type]&quot;,
+      &quot;value&quot;: &quot;General Information&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;customFields[0][dataType]&quot;,
+      &quot;value&quot;: &quot;Textarea&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;customFields[0][isRequired]&quot;,
+      &quot;value&quot;: &quot;true&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;customFields[0][value]&quot;,
+      &quot;value&quot;: &quot;1231&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;customFields[0][status]&quot;,
+      &quot;value&quot;: &quot;true&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;customFields[0][_id]&quot;,
+      &quot;value&quot;: &quot;6678f9027f02756f7f919b20&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -96,7 +108,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${ass}/664b04e5c6199091b2a8e97e</restUrl>
+   <restUrl>${assUrl}${ass}667cda21681bd7d66d19232c</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

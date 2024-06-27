@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;qrIds\&quot;: \&quot;6626b26c2df81e74161c4cff\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;qrIds\&quot;: \&quot;C000V2bkoy1S\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

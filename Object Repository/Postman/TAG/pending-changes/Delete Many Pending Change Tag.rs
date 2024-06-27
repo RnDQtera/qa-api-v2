@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${tagUrl}${penChng}s?id=[&quot;&quot;]</restUrl>
+   <restUrl>${tagUrl}${penChng}?id=[&quot;663b0c0bf0e9cb616725cb92&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

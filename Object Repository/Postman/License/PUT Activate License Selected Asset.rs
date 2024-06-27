@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUT Activate License</name>
+   <name>PUT Activate License Selected Asset</name>
    <tag></tag>
-   <elementGuidId>c36498af-192b-477c-b0c4-972faf4cdab8</elementGuidId>
+   <elementGuidId>28520db1-ac52-49ac-bda0-a656903a33a8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;licenseType\&quot;: \&quot;Fixed Asset\&quot;,\n  \&quot;assetIdList\&quot;: [\n    \&quot;662e44cdc13777448f1ee85c\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;name\&quot;: \&quot;Aku juga removable\&quot;,\n      \&quot;group\&quot;: \&quot;662b73c0d7585df1009c2301\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${licUrl}/v2/activate-license</restUrl>
+   <restUrl>${licUrl}/v2/remove-license/audit</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

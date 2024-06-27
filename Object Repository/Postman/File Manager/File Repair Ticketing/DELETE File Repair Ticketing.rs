@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -31,18 +31,18 @@
       <webElementGuid>d9632654-d5f0-48f2-9e1a-2498e3631c3e</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${felMgrUrl}${felRepTic}?id=65fd07a03cadf77cf657d874</restUrl>
+   <restUrl>${felMgrUrl}${felRepTic}?id=[&quot;65fd07a03cadf77cf657d874&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>

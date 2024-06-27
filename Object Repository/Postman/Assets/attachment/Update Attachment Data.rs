@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -30,7 +30,7 @@
     },
     {
       &quot;name&quot;: &quot;file&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\kk.png&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -61,18 +61,18 @@
       <webElementGuid>7c5eb16d-e3e1-4a4b-9d31-cd4a3ba43310</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${attch}66442e3d51a64aa4df500966</restUrl>
+   <restUrl>${assUrl}${attch}667cec5700ec2cbb266a2aeb</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.ASSETS_BASE_URL</defaultValue>

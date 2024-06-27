@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;subUserIds\&quot;: \&quot;\u003carray\u003e\&quot;,\n  \&quot;isActive\&quot;: \&quot;\u003cboolean\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;subUserIds\&quot;: [\&quot;666ac9ec16d1c00d5818a270\&quot;],\n  \&quot;isActive\&quot;: true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -65,11 +65,25 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.USERS_BASE_URL</defaultValue>
       <description></description>
-      <id>46cb338c-10f3-4d62-86eb-29297f6c01f7</id>
+      <id>44c070e0-6d1b-4be4-b1f8-81b384f5607b</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>usUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.subUsersEndpoint</defaultValue>
+      <description></description>
+      <id>5037301d-8242-4b4a-a8e0-41c2229b093a</id>
+      <masked>false</masked>
+      <name>suUs</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>9ed5d858-f6e7-4feb-8033-297218e27237</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

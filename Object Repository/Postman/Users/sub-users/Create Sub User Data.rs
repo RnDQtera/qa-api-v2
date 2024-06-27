@@ -16,7 +16,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,25 +24,25 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;firstName&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;yo&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;lastName&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;wrpuras&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;division&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;oo&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;phoneNumber&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;123&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -60,7 +60,7 @@
     },
     {
       &quot;name&quot;: &quot;profilePictureMedium&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -72,7 +72,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
       <webElementGuid>b539e666-1d9a-4bf6-8e07-00205cd94c9a</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -96,7 +95,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${usUrl}${suUs}:userId</restUrl>
+   <restUrl>${usUrl}${suUs}666bf7f8da934122eb02ee0a</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

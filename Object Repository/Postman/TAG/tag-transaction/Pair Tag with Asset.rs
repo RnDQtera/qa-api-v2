@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;rfidCode\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;qrCode\&quot;: \&quot;\u003cstring\u003e\&quot;\n    },\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;rfidCode\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;qrCode\&quot;: \&quot;\u003cstring\u003e\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;6442e3d51a64aa4df500966\&quot;,\n      \&quot;qrCode\&quot;: \&quot;C000V2bkoy1S\&quot;,\n      \&quot;rfidCode\&quot;: \&quot;C100V2jxXR6M\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

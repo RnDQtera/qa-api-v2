@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${felMgrUrl}${felMenDoc}?id=[&quot;1313131&quot;]</restUrl>
+   <restUrl>${felMgrUrl}${felMenDoc}?id=[&quot;6628b8eb51fed65f392721ef&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;assetIds\&quot;: \&quot;65d578a9c18b35e4ff44510e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;assetIds\&quot;: [\&quot;667a284f2efd876047a32e51\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

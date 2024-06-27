@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;assetNameKey\&quot;: \&quot;\u003cinteger\u003e\&quot;,\n    \&quot;groupKey\&quot;: \&quot;\u003cinteger\u003e\&quot;\n  },\n  {\n    \&quot;assetNameKey\&quot;: \&quot;\u003cinteger\u003e\&quot;,\n    \&quot;groupKey\&quot;: \&quot;\u003cinteger\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;assetNameKey\&quot;: 216,\n    \&quot;groupKey\&quot;: 14\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

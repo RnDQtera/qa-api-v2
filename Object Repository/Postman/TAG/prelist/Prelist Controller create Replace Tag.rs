@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;type\&quot;: \&quot;\u003cstring\u003e\&quot;\n    },\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;type\&quot;: \&quot;\u003cstring\u003e\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;667bcdc7406c401b526c23dc\&quot;,\n      \&quot;type\&quot;: \&quot;Replace QR TAG\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

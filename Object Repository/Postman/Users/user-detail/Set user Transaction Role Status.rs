@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;setStatusData\&quot;: [\n    {\n      \&quot;transactionType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;roleType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;oldStatus\&quot;: \&quot;\u003cboolean\u003e\&quot;\n    },\n    {\n      \&quot;transactionType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;roleType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;oldStatus\&quot;: \&quot;\u003cboolean\u003e\&quot;\n    }\n  ],\n  \&quot;roleStatus\&quot;: \&quot;\u003cboolean\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groups\&quot;: [\n    \&quot;65d5788cc18b35e098444345fd\&quot;\n  ],\n  \&quot;roleType\&quot;: \&quot;Staff\&quot;,\n  \&quot;transaction\&quot;: \&quot;borrowingRole\&quot;,\n  \&quot;setStatusData\&quot; : \&quot;Active\&quot;,\n  \&quot;roleStatus\&quot; : true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:userId/transaction-role/set-active-status</restUrl>
+   <restUrl>${usUrl}${usDet}6646f8f0a8dd6f66f53061a0/transaction-role/set-active-status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

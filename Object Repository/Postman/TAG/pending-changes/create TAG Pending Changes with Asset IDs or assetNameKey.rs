@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;type\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;assets\&quot;: \&quot;\u003carray\u003e\&quot;,\n    \&quot;assetNameKey\&quot;: \&quot;\u003carray\u003e\&quot;\n  },\n  {\n    \&quot;type\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;assets\&quot;: \&quot;\u003carray\u003e\&quot;,\n    \&quot;assetNameKey\&quot;: \&quot;\u003carray\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;type\&quot;: \&quot;Change to RFID\&quot;,\n    \&quot;assets\&quot;: [\n      \&quot;667bcdc7406c401b526c23dc\&quot;\n    ],\n    \&quot;assetNameKey\&quot;: [\n      4\n    ]\n  }\n]\t\t&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

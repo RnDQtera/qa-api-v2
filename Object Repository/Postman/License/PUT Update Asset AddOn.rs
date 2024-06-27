@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;addOnType\&quot;: \&quot;maintenance\&quot;,\n  \&quot;assetIdList\&quot;: [\n    \&quot;64589902209cfcaef73e8d8e\&quot;\n  ],\n  \&quot;actionType\&quot;: \&quot;Remove\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;addOnType\&quot;: \&quot;maintenance\&quot;,\n  \&quot;assetIdList\&quot;: [\n    \&quot;66441cf2f4d7f239c94c1a0c\&quot;\n  ],\n  \&quot;actionType\&quot;: \&quot;Add\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

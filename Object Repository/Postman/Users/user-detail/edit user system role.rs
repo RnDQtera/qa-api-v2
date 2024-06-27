@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groups\&quot;: \&quot;\u003carray\u003e\&quot;,\n  \&quot;systemRole\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groups\&quot;: [\n    \&quot;65f9344de4f427fe9c7f064b\&quot;\n    ],\n  \&quot;systemRole\&quot;: \&quot;6631ec3bb0b641f900cd469c\&quot;,\n  \&quot;isActive\&quot; : false\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${usDet}:userId/edit-system-role</restUrl>
+   <restUrl>${usUrl}${usDet}664aadf619f3d1d9f997fdb8/edit-system-role</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

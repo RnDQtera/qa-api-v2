@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;systemRoleIdList\&quot;: [\n    \&quot;66263b7070c4fa1391938cd5\&quot;\n  ],\n  \&quot;newStatus\&quot;: false\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;systemRoleIdList\&quot;: [\n    \&quot;66320e1d3488e03df890ef4e\&quot;\n  ],\n  \&quot;newStatus\&quot;: true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

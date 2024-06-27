@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;user\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;companyCode\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;VEhXiga0C2vqw05\&quot;,\n  \&quot;user\&quot;: \&quot;664aadf619f3d1d9f997fdb8\&quot;,\n  \&quot;companyCode\&quot;: \&quot;000v2\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${auth}confirm-email-change/:action</restUrl>
+   <restUrl>${usUrl}${auth}confirm-email-change/confirm</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

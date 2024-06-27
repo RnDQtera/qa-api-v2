@@ -7,21 +7,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <authorizationRequest>
-      <authorizationInfo>
-         <entry>
-            <key>bearerToken</key>
-            <value>${bt}</value>
-         </entry>
-      </authorizationInfo>
-      <authorizationType>Bearer</authorizationType>
-   </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;otp\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;password\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;jwt\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;presiden@mailnesia.com\&quot;,\n  \&quot;otp\&quot;: \&quot;494684\&quot;,\n  \&quot;password\&quot;: \&quot;presidenasdf\&quot;,\n  \&quot;jwt\&quot;: \&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY1ZWE4M2JjZGRhNWY4OTI4MDA5MTJmNyIsImlhdCI6MTcwOTg2Nzk2NX0.55us-qRS19o--2GYcST2LSUN1MzZsZMBQNGyZuI1d5M\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -41,14 +32,6 @@
       <type>Main</type>
       <value>application/json</value>
       <webElementGuid>e65ab03d-6b15-48e0-9e7c-ea30a26f7f17</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>95c6bda3-3fd6-4334-a6c9-866a2d2d8771</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

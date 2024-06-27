@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -43,7 +43,7 @@
       <webElementGuid>f12d38b7-4cf9-4412-93e9-c2331deac108</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
@@ -54,14 +54,14 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.FILE_MANAGER_BASE_URL</defaultValue>
       <description></description>
       <id>6136449e-e410-41f8-a279-69780c0c93dd</id>
       <masked>false</masked>
-      <name>felDisUrl</name>
+      <name>felMgrUrl</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.fileDisposalPhoto</defaultValue>
