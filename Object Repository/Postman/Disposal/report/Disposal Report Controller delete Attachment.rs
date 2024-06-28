@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${disUrl}${rep}cancel-report?isFromDisposal=&lt;boolean>&amp;assetIds=&lt;string></restUrl>
+   <restUrl>${disUrl}${rep}cancel-report?isFromDisposal=true&amp;assetIds=[&quot;667a332e2efd876047a33235&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

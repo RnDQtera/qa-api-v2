@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;isActive\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;status\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;power\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n    \&quot;scanStatus\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;group\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  {\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;isActive\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;status\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;power\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n    \&quot;scanStatus\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;group\&quot;: \&quot;\u003cstring\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n {\n  \&quot;isActive\&quot;: true,\n  \&quot;status\&quot;: \&quot;Available\&quot;,\n  \&quot;group\&quot;: \&quot;6653f20f47784af2d3227740\&quot;,\n  \&quot;id\&quot;: \&quot;66027dcf7c9f62aea9237c88\&quot;\n } \n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

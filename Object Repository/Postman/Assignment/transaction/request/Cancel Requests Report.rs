@@ -1,53 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Report asset as found</name>
+   <name>Cancel Requests Report</name>
    <tag></tag>
-   <elementGuidId>9da279a3-1891-4042-9599-3d9892d62e52</elementGuidId>
+   <elementGuidId>1a170ad8-e556-4919-b968-883f3cd08ff4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <authorizationRequest>
-      <authorizationInfo>
-         <entry>
-            <key>bearerToken</key>
-            <value>${bt}</value>
-         </entry>
-      </authorizationInfo>
-      <authorizationType>Bearer</authorizationType>
-   </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;ids\&quot;:[\&quot;66755a1b8ace08e227140184\&quot;]}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Accept</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>d681bd97-4042-4f28-907f-28557bfbb690</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>3bc24f07-2b8b-4ff8-a388-a5e6c51f54da</webElementGuid>
+      <webElementGuid>f77c9460-b7b7-4c04-bc14-668dc3dae4b3</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${misUrl}/v2/found</restUrl>
+   <restUrl>${assUrl}${trReq}:id/cancel-report</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,16 +36,23 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.MISSING_BASE_URL</defaultValue>
+      <defaultValue>GlobalVariable.ASSIGNMENT_BASE_URL</defaultValue>
       <description></description>
-      <id>3622af15-1df8-44b5-841d-e626f82bd451</id>
+      <id>a1e7687e-2648-42e9-96dc-79ebde4f1303</id>
       <masked>false</masked>
-      <name>misUrl</name>
+      <name>assUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.transactionRequest</defaultValue>
+      <description></description>
+      <id>4adb4ae6-cba4-4529-b25e-4f1fcf3c3eaf</id>
+      <masked>false</masked>
+      <name>trReq</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>
       <description></description>
-      <id>cd131b8e-ac7d-49b3-b73d-eb4e774c3739</id>
+      <id>0bee4705-e14b-4c0a-b9e3-5a4499c0642c</id>
       <masked>false</masked>
       <name>bt</name>
    </variables>

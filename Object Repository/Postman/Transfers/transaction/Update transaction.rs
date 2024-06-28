@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;destinationGroup\&quot;: 1,\n  \&quot;asset\&quot;: [\n    \&quot;string\&quot;\n  ]\n}\t&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;destinationGroup\&quot;: 12,\n  \&quot;asset\&quot;: [\n    \&quot;660fa51b5141dd41091a9124\&quot;\n  ]\n}\t&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${tfUrl}${transc}:id</restUrl>
+   <restUrl>${tfUrl}${transc}6657f82278a9b31aabd29c45</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

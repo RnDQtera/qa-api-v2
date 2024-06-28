@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;method\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;organization\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;disposalGroup\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n  \&quot;assets\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;method\&quot;: \&quot;Donate\&quot;,\n  \&quot;notes\&quot;: \&quot;note\&quot;,\n  \&quot;organization\&quot;: \&quot;PT A\&quot;,\n  \&quot;disposalGroup\&quot;: 1,\n  \&quot;assets\&quot;: [\n    \&quot;6644562451a64aa4df500d8a\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${disUrl}${dis}:id</restUrl>
+   <restUrl>${disUrl}${dis}667e6a78b0e1a89ba7c29982</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

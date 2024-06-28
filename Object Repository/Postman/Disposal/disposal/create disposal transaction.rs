@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;disposalGroup\&quot;: \&quot;\u003cstring\u003e\&quot;\n    },\n    {\n      \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;disposalGroup\&quot;: \&quot;\u003cstring\u003e\&quot;\n    }\n  ],\n  \&quot;method\&quot;: \&quot;Sell\&quot;,\n  \&quot;reason\&quot;: \&quot;Missing\&quot;,\n  \&quot;organization\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;asset\&quot;: \&quot;6644562451a64aa4df500d8a\&quot;,\n      \&quot;disposalGroup\&quot;: \&quot;65fd6d3ce414e9917385a39c\&quot;\n    }\n  ],\n  \&quot;method\&quot;: \&quot;Donate\&quot;,\n  \&quot;reason\&quot;: \&quot;Damaged\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

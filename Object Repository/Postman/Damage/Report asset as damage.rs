@@ -24,14 +24,14 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;notes&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;ss&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;\u003cfile\u003e&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\aa.png&quot;,
+      &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -42,7 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
       <webElementGuid>e366d412-2d32-4507-a63b-038b754fe293</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -58,7 +57,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${dmgUrl}/v2/report-damage/:id</restUrl>
+   <restUrl>${dmgUrl}/v2/report-damage/6644233df4d7f239c94c1beb</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

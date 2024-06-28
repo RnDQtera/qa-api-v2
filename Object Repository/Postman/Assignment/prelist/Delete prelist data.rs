@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${assUrl}${pr}?id=</restUrl>
+   <restUrl>${assUrl}${pr}?id=[&quot;667e38e404478c999f2e4bb3&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

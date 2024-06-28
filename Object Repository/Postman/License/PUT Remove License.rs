@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;name\&quot;: \&quot;Aku juga removable\&quot;,\n      \&quot;group\&quot;: \&quot;662b73c0d7585df1009c2301\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;name\&quot;: \&quot;663dcda2aabf067288747e37\&quot;,\n      \&quot;group\&quot;: \&quot;663c3896ec85df3cf9808671\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${licUrl}/v2/add-license/audit</restUrl>
+   <restUrl>${licUrl}/v2/remove-license/audit</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

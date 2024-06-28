@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;group\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;status\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;networkStatus\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;scanStatus\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;startDate\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;power\&quot;: \&quot;\u003cnumber\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;group\&quot;: \&quot;6628b596e786b79fc8622803\&quot;,\n  \&quot;status\&quot;: \&quot;Available\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${devUrl}${iotRed}:id</restUrl>
+   <restUrl>${devUrl}${iotRed}66027c857c9f62aea9237c7c</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2U2YzU3ZGVhZDI0ZGMxMWU1ZWZlNiIsImlhdCI6MTcxOTU2MTMwMywiZXhwIjoxNzE5NjA0NTAzfQ.2FVgKTVvAshWwiB_bpetxGz3hHyV5kd1Wrn2Y_RSsBI</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;disposalGroup\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;organization\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;method\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;disposalGroup\&quot;: \&quot;661f6857e71826f072e40f90\&quot;,\n  \&quot;organization\&quot;: \&quot;PT.ASDF\&quot;,\n  \&quot;method\&quot;: \&quot;Sell\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,15 +47,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>4a1b8903-255d-4784-aab8-5a3fd38a5f32</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2U2YzU3ZGVhZDI0ZGMxMWU1ZWZlNiIsImlhdCI6MTcxOTU2MTMwMywiZXhwIjoxNzE5NjA0NTAzfQ.2FVgKTVvAshWwiB_bpetxGz3hHyV5kd1Wrn2Y_RSsBI</value>
+      <webElementGuid>22daff25-cb35-4937-9f0f-db902ce65cd2</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${disUrl}${disPr}:id</restUrl>
+   <restUrl>${disUrl}${disPr}667e6fc9b0e1a89ba7c29a1f</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

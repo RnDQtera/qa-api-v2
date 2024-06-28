@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;action\&quot;: \&quot;Remove\&quot;,\n    \&quot;asset\&quot;: \&quot;6672a036e533fc3a37c9b4e2\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${tr}:id/request</restUrl>
+   <restUrl>${assUrl}${tr}667d13755abdfb9ae585e957/request</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

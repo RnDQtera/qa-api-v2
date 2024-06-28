@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2U2YzU3ZGVhZDI0ZGMxMWU1ZWZlNiIsImlhdCI6MTcxOTU2MTMwMywiZXhwIjoxNzE5NjA0NTAzfQ.2FVgKTVvAshWwiB_bpetxGz3hHyV5kd1Wrn2Y_RSsBI</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ],\n  \&quot;disposalGroup\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;organization\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;method\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;reason\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;661f906e6b1266ce094a4de9\&quot;\n  ],\n  \&quot;disposalGroup\&quot;: \&quot;645e40976274c7513437248a\&quot;,\n  \&quot;organization\&quot;: \&quot;PT.ASDF\&quot;,\n  \&quot;method\&quot;: \&quot;Sell\&quot;,\n  \&quot;reason\&quot;: \&quot;Damaged\&quot;,\n  \&quot;notes\&quot;: \&quot;Damaged\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>3571fc75-6804-4533-aa7b-56df56e9b241</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2N2U2YzU3ZGVhZDI0ZGMxMWU1ZWZlNiIsImlhdCI6MTcxOTU2MTMwMywiZXhwIjoxNzE5NjA0NTAzfQ.2FVgKTVvAshWwiB_bpetxGz3hHyV5kd1Wrn2Y_RSsBI</value>
+      <webElementGuid>029f3116-fd39-4faa-918e-32e5c721988e</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
