@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;password\&quot;: \&quot;betmen12\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;password\&quot;: \&quot;ujanderes\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${auth}confirm-user-email/VEhXiga0C2vqw05</restUrl>
+   <restUrl>${usUrl}${auth}confirm-user-email/hIhFiwwuDQgDG7U</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

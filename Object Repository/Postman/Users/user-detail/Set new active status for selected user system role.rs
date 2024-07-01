@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;systemRoleIdList\&quot;: [\n    \&quot;66320e1d3488e03df890ef4e\&quot;\n  ],\n  \&quot;newStatus\&quot;: true\n}&quot;,
+  &quot;text&quot;: &quot;{\&quot;systemRoleIdList\&quot;:[\&quot;668208f6d8f918ef1bb18efc\&quot;],\&quot;newStatus\&quot;:false}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${usDet}6646f8f0a8dd6f66f53061a0/system-role/set-active-status</restUrl>
+   <restUrl>${usUrl}${usDet}65fab9d203c29bae62bd1113/system-role/set-active-status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

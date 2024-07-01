@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groups\&quot;: [\n    \&quot;65d5788cc18b35e098444345fd\&quot;\n  ],\n  \&quot;roleType\&quot;: \&quot;Staff\&quot;,\n  \&quot;transaction\&quot;: \&quot;transferRole\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groups\&quot;:[\n    \&quot;662b5264fd889e8942f38532\&quot;,\n    \&quot;662b5276fd889e8942f3853e\&quot;,\n    \&quot;6628bce3e786b79fc8622945\&quot;,\n    \&quot;663af8cd04a744b324e1ecf7\&quot;\n  ],\n  \&quot;transaction\&quot;:\&quot;transferRole\&quot;,\n  \&quot;roleType\&quot;:\&quot;Monitoring\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${usUrl}${usDet}664aadf619f3d1d9f997fdb8/edit-transaction-role</restUrl>
+   <restUrl>${usUrl}${usDet}65fab9d203c29bae62bd1113/edit-transaction-role</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

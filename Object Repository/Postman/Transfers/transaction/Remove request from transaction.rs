@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;66753cada9abc6a5fa6c8a88\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${tfUrl}${transc}:id/request/remove</restUrl>
+   <restUrl>${tfUrl}${transc}6657f82278a9b31aabd29c45/request/remove</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

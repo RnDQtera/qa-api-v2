@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${borUrl}${tr}:id/decline</restUrl>
+   <restUrl>${borUrl}${tr}664d612b8b0b20733cc6ea63/decline</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

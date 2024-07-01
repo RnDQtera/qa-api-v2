@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  },\n  {\n    \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;isApproved\&quot;: true,\n    \&quot;id\&quot;: \&quot;6662c6f0afdb487c3e2ed63e\&quot;,\n    \&quot;notes\&quot;: \&quot;this is notes\&quot;,\n    \&quot;duration\&quot;: 4\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

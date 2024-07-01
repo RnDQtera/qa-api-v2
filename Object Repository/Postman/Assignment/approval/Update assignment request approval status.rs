@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2ODI2NjQ4MjUwYTE1MTRiY2RjNWYwMiIsImlhdCI6MTcxOTgyMTg5NiwiZXhwIjoxNzE5ODY1MDk2fQ.cPtnl9khGkD72jJXqVt5BEeV0ebGby5b0RnXSil2iQw</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[{\&quot;id\&quot;:\&quot;667bcbe3e6ad6d459fd201ab\&quot;,\&quot;notes\&quot;:\&quot;this is why\&quot;,\&quot;isApproved\&quot;:true},{\&quot;id\&quot;:\&quot;667d211f9c3546a7e2b5cf75\&quot;,\&quot;notes\&quot;:\&quot;this is why2\&quot;,\&quot;isApproved\&quot;:true}]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;isApproved\&quot;:true,\n    \&quot;id\&quot;:\&quot;66822da9b2e504297cd8e712\&quot;,\n    \&quot;notes\&quot;:\&quot;sisi\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>0a87e8dd-b91c-4e6f-9396-88d6dcda4e44</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjNDI1M2RkMTAxN2YyODY4OTU3MiIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2ODI2NjQ4MjUwYTE1MTRiY2RjNWYwMiIsImlhdCI6MTcxOTgyMTg5NiwiZXhwIjoxNzE5ODY1MDk2fQ.cPtnl9khGkD72jJXqVt5BEeV0ebGby5b0RnXSil2iQw</value>
+      <webElementGuid>5db07e5b-fb99-4743-bfb5-b1c764c77e29</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

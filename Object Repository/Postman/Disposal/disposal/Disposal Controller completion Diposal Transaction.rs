@@ -23,15 +23,27 @@
    <httpBodyContent>{
   &quot;parameters&quot;: [
     {
-      &quot;name&quot;: &quot;request&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;name&quot;: &quot;request[0][_id]&quot;,
+      &quot;value&quot;: &quot;667d3ce1429d7eaf6b796860&quot;,
       &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;request[0][salvageableParts]&quot;,
+      &quot;value&quot;: &quot;[]&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;request[0][salePrice]&quot;,
+      &quot;value&quot;: &quot;{\&quot;currency\&quot;:\&quot;IDR\&quot;,\&quot;value\&quot;:2002221231313131}&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;note&quot;,
       &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -65,7 +77,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${disUrl}${dis}/:id/completion</restUrl>
+   <restUrl>${disUrl}${dis}667d3ce1429d7eaf6b79685d/completion</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

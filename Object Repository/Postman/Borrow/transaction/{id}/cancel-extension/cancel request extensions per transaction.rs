@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${borUrl}${trReq}:id/cancel-extension</restUrl>
+   <restUrl>${borUrl}${tr}6674e3fb8185a2847a277c55/cancel-extension</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -60,11 +60,11 @@
       <name>borUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.transactionRequest</defaultValue>
+      <defaultValue>GlobalVariable.transactionEndpoint</defaultValue>
       <description></description>
       <id>c2b86ea9-3c3e-4fa0-b959-44b9186f8e73</id>
       <masked>false</masked>
-      <name>trReq</name>
+      <name>tr</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>

@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  {\n    \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;isApproved\&quot;: true,\n    \&quot;id\&quot;: \&quot;667d31b5429d7eaf6b7967df\&quot;,\n    \&quot;notes\&quot;: \&quot;asdf\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

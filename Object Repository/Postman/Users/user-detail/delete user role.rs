@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;removeRoleData\&quot;: [\n    {\n      \&quot;transactionType\&quot;: \&quot;Disposal\&quot;,\n      \&quot;roleType\&quot;: \&quot;Manager\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;removeRoleData\&quot;:[{\n    \&quot;transactionType\&quot;:\&quot;Transfer\&quot;,\n    \&quot;roleType\&quot;:\&quot;Manager\&quot;}]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${usUrl}${usDet}64aadf619f3d1d9f997fdb8/delete-transaction-role</restUrl>
+   <restUrl>${usUrl}${usDet}65fab9d203c29bae62bd1113/delete-transaction-role</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

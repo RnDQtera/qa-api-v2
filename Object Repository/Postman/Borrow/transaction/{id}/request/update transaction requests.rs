@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  },\n  {\n    \&quot;action\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;asset\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;action\&quot;: \&quot;Update\&quot;,\n    \&quot;asset\&quot;: \&quot;660b8ca3dca2b75ecaa49768\&quot;,\n    \&quot;duration\&quot;: 4\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${borUrl}${tr}:id/request</restUrl>
+   <restUrl>${borUrl}${tr}66349601b958f69dfad54676/request</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

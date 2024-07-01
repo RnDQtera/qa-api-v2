@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${disUrl}${dis}cancel?id=</restUrl>
+   <restUrl>${disUrl}${dis}cancel?id=[&quot;668182c39cb9423db2b5e343&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

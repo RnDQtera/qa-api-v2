@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;VEhXiga0C2vqw05\&quot;,\n  \&quot;user\&quot;: \&quot;664aadf619f3d1d9f997fdb8\&quot;,\n  \&quot;companyCode\&quot;: \&quot;000v2\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;JaEmpbaRoJvhupS\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

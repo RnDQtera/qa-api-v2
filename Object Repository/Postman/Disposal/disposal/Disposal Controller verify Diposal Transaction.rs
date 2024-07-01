@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${disUrl}${dis}:id/verification</restUrl>
+   <restUrl>${disUrl}${dis}667d31dc429d7eaf6b796812/verification</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

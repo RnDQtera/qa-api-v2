@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;6654494bc91b565a32e74fbb\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${borUrl}${trReq}cancel</restUrl>
+   <restUrl>${borUrl}${tr}cancel</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -72,11 +72,11 @@
       <name>borUrl</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.transactionRequest</defaultValue>
+      <defaultValue>GlobalVariable.transactionEndpoint</defaultValue>
       <description></description>
       <id>c2b86ea9-3c3e-4fa0-b959-44b9186f8e73</id>
       <masked>false</masked>
-      <name>trReq</name>
+      <name>tr</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.Bearer</defaultValue>

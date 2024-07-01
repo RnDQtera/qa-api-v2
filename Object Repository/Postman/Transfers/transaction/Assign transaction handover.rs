@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;request\&quot;: [\n    \&quot;\u003cstring\u003e\&quot;,\n    \&quot;\u003cstring\u003e\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;requests\&quot;:[{\n    \&quot;_id\&quot;:\&quot;665555df89ef8a2e4d9d06bd\&quot;,\n    \&quot;status\&quot;:\&quot;Verified\&quot;,\n    \&quot;condition\&quot;:\&quot;Normal\&quot;\n  }]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${tfUrl}${transc}:id/handover</restUrl>
+   <restUrl>${tfUrl}${transc}665555df89ef8a2e4d9d06b7/handover</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -16,7 +16,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,14 +24,14 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;notes&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;sss&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;picture&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\eay.png&quot;,
+      &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -65,7 +65,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${borUrl}${trReq}:id/damaged</restUrl>
+   <restUrl>${borUrl}${trReq}664d612b8b0b20733cc6ea66/damaged</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

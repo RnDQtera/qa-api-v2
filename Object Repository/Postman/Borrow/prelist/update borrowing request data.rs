@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;user\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  },\n  {\n    \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;user\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;asset\&quot;: \&quot;664d6432d7863ecc14cc9dda\&quot;,\n    \&quot;user\&quot;: \&quot;645e40976274c7513437248a\&quot;,\n    \&quot;duration\&quot;: 3\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

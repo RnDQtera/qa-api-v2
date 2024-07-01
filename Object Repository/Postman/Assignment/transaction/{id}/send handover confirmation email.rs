@@ -20,20 +20,8 @@
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: [\n    \&quot;65ea7d29f5cd331b5beed2b1\&quot;\n  ]\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>d7322d5d-4aaa-4175-b7f0-22aace616d9c</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -55,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${assUrl}${tr}6646f9daf120a75676a915f8/send-confirmation-email</restUrl>
+   <restUrl>${assUrl}${tr}665854f4b1048002a19235f0/send-confirmation-email</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

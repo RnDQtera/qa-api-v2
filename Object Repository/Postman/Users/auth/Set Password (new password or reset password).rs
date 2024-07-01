@@ -7,12 +7,21 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>${bt}</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;password\&quot;: \&quot;presidenasdf\&quot;,\n  \&quot;token\&quot;: \&quot;eO3tYuUsofTNs7p\&quot;,\n  \&quot;type\&quot;: \&quot;confirm\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;password\&quot;: \&quot;resuresu2\&quot;,\n  \&quot;token\&quot;: \&quot;lKftltGxIYR0Lu8\&quot;,\n  \&quot;type\&quot;: \&quot;reset\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -32,6 +41,14 @@
       <type>Main</type>
       <value>application/json</value>
       <webElementGuid>a7ab763b-1658-4616-a72b-8823b8994cc2</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${bt}</value>
+      <webElementGuid>ed25fa5d-cb68-4d86-8ba4-1314e3b27758</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
