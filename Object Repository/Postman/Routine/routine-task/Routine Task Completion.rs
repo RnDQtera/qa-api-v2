@@ -11,12 +11,12 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjMTVlNjAxMzBiYzM5YzkyODk1YSIsImlhdCI6MTcxOTkxMDc1MCwiZXhwIjoxNzE5OTUzOTUwfQ.nEIizg1AKAp3SHfJ_qEA_GPa-tE64B41tl6HOgpOIQw</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,37 +24,13 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;notes&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;cc&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;maintenanceIndicator&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;serviceCenterId&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;totalAdditionalCost&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;maintenanceImage&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;paymentProof&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;[{\&quot;name\&quot;:\&quot;halo\&quot;,\&quot;indicatorType\&quot;:\&quot;Single Value\&quot;,\&quot;dataType\&quot;:\&quot;Number\&quot;,\&quot;isMandatory\&quot;:false,\&quot;isHaveStandardValue\&quot;:false,\&quot;options\&quot;:[],\&quot;standard\&quot;:\&quot;\&quot;,\&quot;measurement\&quot;:\&quot;halo\&quot;}]&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -73,15 +49,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>7f2a9134-a6a7-4113-b21e-823640276587</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjMTVlNjAxMzBiYzM5YzkyODk1YSIsImlhdCI6MTcxOTkxMDc1MCwiZXhwIjoxNzE5OTUzOTUwfQ.nEIizg1AKAp3SHfJ_qEA_GPa-tE64B41tl6HOgpOIQw</value>
+      <webElementGuid>2576f7b3-279c-4682-85e0-e79a7ba0d81e</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rutUrl}${rutTask}:id/completion</restUrl>
+   <restUrl>${rutUrl}${rutTask}6683b69ffeaba52602c15cb6/completion</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

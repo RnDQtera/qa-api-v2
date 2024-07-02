@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auTsk}:id/stop</restUrl>
+   <restUrl>${auUrl}${auTsk}664466b1e2bc434c5388f8f0/stop</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

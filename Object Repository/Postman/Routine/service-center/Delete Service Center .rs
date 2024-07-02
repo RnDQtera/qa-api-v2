@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${rutUrl}${serCen}?id=</restUrl>
+   <restUrl>${rutUrl}${serCen}?id=[&quot;66839e8afeaba52602c15579&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

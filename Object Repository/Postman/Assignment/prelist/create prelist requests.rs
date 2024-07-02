@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;asset\&quot;: \&quot;667e19cb1cd5ab452e53da2b\&quot;,\n    \&quot;type\&quot;: \&quot;Assign\&quot;,\n    \&quot;user\&quot;: \&quot;666bf7f8da934122eb02ee0a\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;asset\&quot;: \&quot;664436d951a64aa4df500b0d\&quot;,\n    \&quot;user\&quot;: \&quot;666bf7f8da934122eb02ee0a\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

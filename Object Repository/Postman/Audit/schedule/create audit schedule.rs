@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;taskName\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;group\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;category\&quot;: \&quot;\u003carray\u003e\&quot;,\n  \&quot;tag\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;auditType\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n  \&quot;frequency\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;customValue\&quot;: {\n    \&quot;value\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n    \&quot;frequency\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;auditDate\&quot;: \&quot;\u003cdate\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;taskName\&quot;:\&quot;skedzul\&quot;,\n  \&quot;auditType\&quot;:\&quot;Existence\&quot;,\n  \&quot;group\&quot;:\&quot;663c9117ec85df3cf9808af6\&quot;,\n  \&quot;tag\&quot;: \&quot;QR\&quot;,\n  \&quot;duration\&quot;: 2,\n  \&quot;frequency\&quot;: \&quot;Once\&quot;,\n  \&quot;auditDate\&quot;: 1720065890000,\n  \&quot;category\&quot;:[\&quot;6646c1de66e4aa0ed82d76c7\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

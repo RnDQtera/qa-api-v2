@@ -11,12 +11,12 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2M2RjZjUxMTBmNGYxNDU3OTc5OGU0ZSIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2ODM2ZjZjMWMxNDA0MmRjODkyMDRhOCIsImlhdCI6MTcxOTg4OTc3MiwiZXhwIjoxNzE5OTMyOTcyfQ.frZhXTthNpYrM7fPpsMRUrFlXn5ZvADJDe2a810yuJM</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,50 +24,20 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;notes&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;serviceCenterId&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;totalAdditionalCost&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;nextAction&quot;,
-      &quot;value&quot;: &quot;Report Permanently Damaged&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;handledBy&quot;,
-      &quot;value&quot;: &quot;Warranty Claim&quot;,
+      &quot;value&quot;: &quot;aass&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;isSuccess&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;true&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;repairImage&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;paymentProof&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\eay.png&quot;,
+      &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -85,15 +55,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>09416b89-0b30-442d-bd6b-6142feef4b39</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2M2RjZjUxMTBmNGYxNDU3OTc5OGU0ZSIsImNvbXBhbnkiOiI2NWVhNzhhYmY0NTgyNTc4NWI2OGEyZDciLCJjb21wYW55Q29kZSI6IjAwMHYyIiwic2Vzc2lvbiI6IjY2ODM2ZjZjMWMxNDA0MmRjODkyMDRhOCIsImlhdCI6MTcxOTg4OTc3MiwiZXhwIjoxNzE5OTMyOTcyfQ.frZhXTthNpYrM7fPpsMRUrFlXn5ZvADJDe2a810yuJM</value>
+      <webElementGuid>c3661116-93e6-4678-ae76-1d38900a467a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${repUrl}${rep}6657f76ca78eb576e03ae75fs</restUrl>
+   <restUrl>${repUrl}${rep}665d7a94727529c489f18e95</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

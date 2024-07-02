@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${repUrl}${rep}:id/confirm-repair</restUrl>
+   <restUrl>${repUrl}${rep}665e6fea48996e7dcaefe4aa/confirm-repair</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

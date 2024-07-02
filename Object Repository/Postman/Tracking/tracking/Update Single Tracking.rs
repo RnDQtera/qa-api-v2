@@ -11,12 +11,12 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjZDNiZDdiNDA1ZTM2YzQzODMzNSIsImlhdCI6MTcxOTkxMzc4NywiZXhwIjoxNzE5OTU2OTg3fQ.Bo7UXVbRAecsGzrQVwMT6bMxrZnnpAqA6T7wLejPbLg</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,25 +24,13 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;condition&quot;,
-      &quot;value&quot;: &quot;Asset found, damaged condition&quot;,
+      &quot;value&quot;: &quot;Asset found, normal condition&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;foundGroup&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;notes&quot;,
-      &quot;value&quot;: &quot;&quot;,
-      &quot;type&quot;: &quot;text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;6645d64c66796581a5e16f1e&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -69,15 +57,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>99e40919-d267-448f-bc0b-91222736a191</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjZDNiZDdiNDA1ZTM2YzQzODMzNSIsImlhdCI6MTcxOTkxMzc4NywiZXhwIjoxNzE5OTU2OTg3fQ.Bo7UXVbRAecsGzrQVwMT6bMxrZnnpAqA6T7wLejPbLg</value>
+      <webElementGuid>9adf8fb0-5bdf-412d-b689-fee888f5dcf6</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${trckUrl}${trck}update/:id</restUrl>
+   <restUrl>${trckUrl}${trck}update/6683c7d25a3e7fda759f496c</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

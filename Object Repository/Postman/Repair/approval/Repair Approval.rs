@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODM3ODJmMWMxNDA0MmRjODkyMGIyYiIsImlhdCI6MTcxOTg5MjAxNSwiZXhwIjoxNzE5OTM1MjE1fQ.EVgX9O5XiSyKNi0w-erTro7pGIO-kEBvjdwprRfwKWU</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n  \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;isApproved\&quot;: \&quot;true\&quot;,\n  \&quot;id\&quot;: \&quot;668378245457acaa39b919aa\&quot;,\n  \&quot;notes\&quot;: \&quot;haha\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>a8ec847e-c50e-4164-8696-31d0ffc1803b</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODM3ODJmMWMxNDA0MmRjODkyMGIyYiIsImlhdCI6MTcxOTg5MjAxNSwiZXhwIjoxNzE5OTM1MjE1fQ.EVgX9O5XiSyKNi0w-erTro7pGIO-kEBvjdwprRfwKWU</value>
+      <webElementGuid>c69864a3-5096-41d1-a309-37424e606d1a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

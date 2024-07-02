@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${rutUrl}${rutSch}bulk-delete?id=</restUrl>
+   <restUrl>${rutUrl}${rutSch}bulk-delete?id=[&quot;6683a9e9feaba52602c15704&quot;]</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

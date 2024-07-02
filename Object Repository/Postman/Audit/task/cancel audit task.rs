@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auTsk}/cancel</restUrl>
+   <restUrl>${auUrl}${auTsk}6657e8695c30ce3ca31464de/cancel</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

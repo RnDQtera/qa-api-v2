@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${tfUrl}${transc}6657f82278a9b31aabd29c45</restUrl>
+   <restUrl>${tfUrl}${transc}66824da81104f2db51ca19b0</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

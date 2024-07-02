@@ -16,7 +16,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,14 +24,14 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;note&quot;,
-      &quot;value&quot;: &quot;\u003cstring\u003e&quot;,
+      &quot;value&quot;: &quot;haha&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;picture&quot;,
-      &quot;value&quot;: &quot;\u003cfile\u003e&quot;,
-      &quot;type&quot;: &quot;text&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Pictures\\eay.png&quot;,
+      &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
@@ -42,7 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
       <webElementGuid>b6b1edbb-aad5-48be-9507-26c40f74176d</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -66,7 +65,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${trReq}:id/damaged</restUrl>
+   <restUrl>${assUrl}${trReq}668365213175c7ccc98cd9c3/damaged</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

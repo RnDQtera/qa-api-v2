@@ -35,7 +35,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auSchAs}:scheduledAssetId/cancel-report</restUrl>
+   <restUrl>${auUrl}${auSchAs}6667ec3620b314b745c9b305/cancel-report</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;action\&quot;: \&quot;Stop Maintenance\&quot;,\n  \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;action\&quot;:\&quot;Extend Duration\&quot;,\n  \&quot;duration\&quot;:1,\n  \&quot;notes\&quot;:\&quot;ss\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,7 +47,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rutUrl}${rutTask}:id/handle-overdue</restUrl>
+   <restUrl>${rutUrl}${rutTask}667d125b6a6552479daeba21/handle-overdue</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

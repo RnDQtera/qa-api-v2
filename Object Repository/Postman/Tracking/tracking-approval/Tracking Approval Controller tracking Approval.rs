@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjODFjYzc5OWJkYTE0NDcyYmM4MyIsImlhdCI6MTcxOTkxMjQ3NiwiZXhwIjoxNzE5OTU1Njc2fQ.rWAd1U5y2MPTc7K6ZbqvC-s1iocg0mE0cd55rUCh-co</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;isApproved\&quot;: \&quot;\u003cboolean\u003e\&quot;,\n  \&quot;id\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;notes\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;isApproved\&quot;: true,\n  \&quot;id\&quot;: \&quot;6683cb6b9ec31b0451ef0d21\&quot;,\n  \&quot;notes\&quot;: \&quot;this is notes\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,8 +47,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>4aca6d1f-4776-44f1-89d0-269dc22dec03</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODNjODFjYzc5OWJkYTE0NDcyYmM4MyIsImlhdCI6MTcxOTkxMjQ3NiwiZXhwIjoxNzE5OTU1Njc2fQ.rWAd1U5y2MPTc7K6ZbqvC-s1iocg0mE0cd55rUCh-co</value>
+      <webElementGuid>1cc74d13-a8a9-427f-83b4-f49579f9cba7</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

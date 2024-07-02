@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;frequency\&quot;: {\n    \&quot;label\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;customUnit\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;customValue\&quot;: \&quot;\u003cnumber\u003e\&quot;\n  },\n  \&quot;maintenanceIndicator\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;staff\&quot;: {\n    \&quot;_id\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;taskName\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;nextSchedule\&quot;: \&quot;\u003cdate\u003e\&quot;,\n  \&quot;duration\&quot;: \&quot;\u003cnumber\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;taskName\&quot;:\&quot;gacoba lagi\&quot;,\n  \&quot;nextSchedule\&quot;:1719939600000,\n  \&quot;frequency\&quot;:{\n    \&quot;label\&quot;:\&quot;Daily\&quot;\n  },\n  \&quot;duration\&quot;:2,\n  \&quot;maintenanceIndicator\&quot;:\&quot;[{\\\&quot;name\\\&quot;:\\\&quot;indiekator\\\&quot;,\\\&quot;indicatorType\\\&quot;:\\\&quot;Single Value\\\&quot;,\\\&quot;dataType\\\&quot;:\\\&quot;Number\\\&quot;,\\\&quot;isMandatory\\\&quot;:false,\\\&quot;isHaveStandardValue\\\&quot;:false,\\\&quot;standard\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;measurement\\\&quot;:\\\&quot;garis\\\&quot;}]\&quot;,\n  \&quot;assetNames\&quot;:[{\n    \&quot;_id\&quot;:\&quot;65f36bb35a5072e82eb557c9\&quot;,\n    \&quot;group\&quot;:\&quot;65fcf21286bbf6430e72ac61\&quot;}]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rutUrl}${rutSch}:id</restUrl>
+   <restUrl>${rutUrl}${rutSch}6683a8f3feaba52602c15640</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

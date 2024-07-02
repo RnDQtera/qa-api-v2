@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;state\&quot;: {\n    \&quot;name\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;iso\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;country\&quot;: {\n    \&quot;name\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;iso\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;name\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;category\&quot;: \&quot;\u003carray\u003e\&quot;,\n  \&quot;brand\&quot;: \&quot;\u003carray\u003e\&quot;,\n  \&quot;zipCode\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;phoneNumber\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;picName\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;address\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;picPhoneNumber\&quot;: \&quot;\u003cstring\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Jendela Service Center\&quot;,\n  \&quot;category\&quot;: [\n    13\n  ],\n  \&quot;brand\&quot;: [\n    131\n  ],\n  \&quot;state\&quot;: {\n    \&quot;name\&quot;: \&quot;Jkt\&quot;,\n    \&quot;iso\&quot;: \&quot;Jkt-iso\&quot;\n  },\n  \&quot;country\&quot;: {\n    \&quot;name\&quot;: \&quot;Indonesia\&quot;,\n    \&quot;iso\&quot;: \&quot;Indonesia-iso\&quot;\n  },\n  \&quot;city\&quot;: \&quot;Jakut\&quot;,\n  \&quot;zipCode\&quot;: \&quot;aesdeep\&quot;,\n  \&quot;phoneNumber\&quot;: \&quot;505050\&quot;,\n  \&quot;picName\&quot;: \&quot;Agam\&quot;,\n  \&quot;address\&quot;: \&quot;Rukan Villa Gading Indah\&quot;,\n  \&quot;picPhoneNumber\&quot;: \&quot;505050\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${rutUrl}${serCen}:id</restUrl>
+   <restUrl>${rutUrl}${serCen}66601f712cd0fc9b599a0d5e</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

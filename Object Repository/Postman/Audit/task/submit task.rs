@@ -43,7 +43,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auTsk}:id/submit</restUrl>
+   <restUrl>${auUrl}${auTsk}664b215f03ef26d555cddb91/submit</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

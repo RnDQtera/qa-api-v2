@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;note\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;picture\&quot;: \&quot;\u003cfile\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;note\&quot;: \&quot;bkr\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${assUrl}${trReq}:id/missing</restUrl>
+   <restUrl>${assUrl}${trReq}6667c77f0e65b81ff75e225c/missing</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -65,11 +65,25 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>GlobalVariable.ASSIGNMENT_BASE_URL</defaultValue>
       <description></description>
-      <id>b6def56c-2f0b-4842-97b3-4b674ad8f08f</id>
+      <id>a1e7687e-2648-42e9-96dc-79ebde4f1303</id>
       <masked>false</masked>
-      <name>baseUrl</name>
+      <name>assUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.transactionRequest</defaultValue>
+      <description></description>
+      <id>4adb4ae6-cba4-4529-b25e-4f1fcf3c3eaf</id>
+      <masked>false</masked>
+      <name>trReq</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Bearer</defaultValue>
+      <description></description>
+      <id>0bee4705-e14b-4c0a-b9e3-5a4499c0642c</id>
+      <masked>false</masked>
+      <name>bt</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auSchAs}:id/report-missing</restUrl>
+   <restUrl>${auUrl}${auSchAs}66826754bb149c10ec5c436e/report-missing</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
