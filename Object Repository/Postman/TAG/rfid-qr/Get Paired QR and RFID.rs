@@ -11,7 +11,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>${bt}</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODRiMTc3ZmI1OTMxZjBmODdlMTU0MCIsImlhdCI6MTcxOTk3MjIxNSwiZXhwIjoxNzIwMDE1NDE1fQ.yfwxhNnlJmFMcDxen7a4z3XdD4sL1HOViBvyCCNw3FQ</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -35,15 +35,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${bt}</value>
-      <webElementGuid>bf553a9d-618c-4d71-ad8a-f9aa331005e2</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NzM5NWJhMDZjNGJjYThiOGRmOWUxZSIsImNvbXBhbnkiOiI2NjQ1YzBjYjcyM2U4ODk3MmE4ZWQzNzkiLCJjb21wYW55Q29kZSI6IjAwMDA2Iiwic2Vzc2lvbiI6IjY2ODRiMTc3ZmI1OTMxZjBmODdlMTU0MCIsImlhdCI6MTcxOTk3MjIxNSwiZXhwIjoxNzIwMDE1NDE1fQ.yfwxhNnlJmFMcDxen7a4z3XdD4sL1HOViBvyCCNw3FQ</value>
+      <webElementGuid>822142b3-ea34-4de1-8740-a426a2120d37</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${tagUrl}${rfQr}?group=&amp;tag=&amp;rfidCode=&amp;qrCode=&amp;sortOrder=&amp;sortBy=&amp;limit=&amp;page=</restUrl>
+   <restUrl>${tagUrl}${rfQr}scan?tag=C00006nmW+NI</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

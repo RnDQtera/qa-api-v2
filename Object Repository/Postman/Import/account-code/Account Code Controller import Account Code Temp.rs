@@ -17,14 +17,14 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;data&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\gabisatidur\\Downloads\\template import excel\\account-code-template.xlsx&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Downloads\\template-import\\account-code-template.xlsx&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -55,7 +55,7 @@
       <webElementGuid>6526b1f2-72b5-4136-883e-fc44c133c6a9</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
@@ -66,7 +66,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.IMPORT_BASE_URL</defaultValue>

@@ -24,7 +24,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;data&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\gabisatidur\\Downloads\\template import excel\\brand-template.xlsx&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Downloads\\template-import\\brand-template.xlsx&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }

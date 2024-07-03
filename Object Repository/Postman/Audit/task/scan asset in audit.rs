@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;tag\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;foundGroup\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;serialNumber\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  {\n    \&quot;tag\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;foundGroup\&quot;: \&quot;\u003cstring\u003e\&quot;,\n    \&quot;serialNumber\&quot;: \&quot;\u003cstring\u003e\&quot;\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;tag\&quot;:\&quot;C00006+L4YsJ\&quot;,\n    \&quot;foundGroup\&quot;:\&quot;6645d64c66796581a5e16f1e\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -55,7 +55,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${auUrl}${auTsk}:id/scan</restUrl>
+   <restUrl>${auUrl}${auTsk}666695ad1fb213d27a3998458/scan</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

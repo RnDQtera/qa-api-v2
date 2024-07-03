@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;\u003cstring\u003e\&quot;,\n  \&quot;listedBy\&quot;: \&quot;Category\&quot;,\n  \&quot;timeInterval\&quot;: \&quot;Date\&quot;,\n  \&quot;email\&quot;: {\n    \&quot;recipient\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;cc\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;bcc\&quot;: [\n      \&quot;\u003cstring\u003e\&quot;,\n      \&quot;\u003cstring\u003e\&quot;\n    ],\n    \&quot;subject\&quot;: \&quot;\u003cstring\u003e\&quot;\n  },\n  \&quot;startDate\&quot;: \&quot;\u003cdate\u003e\&quot;,\n  \&quot;endDate\&quot;: \&quot;\u003cdate\u003e\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;string\&quot;,\n  \&quot;listedBy\&quot;: \&quot;Group\&quot;,\n  \&quot;timeInterval\&quot;: \&quot;Date\&quot;,\n  \&quot;startDate\&quot;: \&quot;2024-07-02\&quot;,\n  \&quot;endDate\&quot;: \&quot;2024-07-02\&quot;,\n  \&quot;email\&quot;: {\n    \&quot;recipient\&quot;: [\n      \&quot;akubaru@mailnesia.com\&quot;\n    ],\n    \&quot;subject\&quot;: \&quot;string\&quot;\n  }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

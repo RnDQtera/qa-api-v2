@@ -16,7 +16,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -24,7 +24,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;data&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\gabisatidur\\Downloads\\template import excel\\custom-field-template.xlsx&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\DELL\\Downloads\\template-import\\custom-field-template.xlsx&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }

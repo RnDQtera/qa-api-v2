@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;rfidIds\&quot;: \&quot;C000V2bkoy1S\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;rfidIds\&quot;: [\&quot;663dc8fc2a0a2bd44a7d534a\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

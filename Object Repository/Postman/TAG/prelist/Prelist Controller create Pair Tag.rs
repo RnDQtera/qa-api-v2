@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;assetNameKey\&quot;: 216,\n    \&quot;groupKey\&quot;: 14\n  }\n]&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;assetNameKey\&quot;: 124,\n    \&quot;groupKey\&quot;: 81\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

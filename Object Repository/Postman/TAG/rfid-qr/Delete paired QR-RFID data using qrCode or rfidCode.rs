@@ -16,12 +16,12 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;qrShortCode\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;rfidShortCode\&quot;: \&quot;\u003cstring\u003e\&quot;\n    },\n    {\n      \&quot;qrShortCode\&quot;: \&quot;\u003cstring\u003e\&quot;,\n      \&quot;rfidShortCode\&quot;: \&quot;\u003cstring\u003e\&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;rfidShortCode\&quot;: \&quot;E*40B905\&quot;\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

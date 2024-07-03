@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;: [\n    {\n      \&quot;rfidCode\&quot;: \&quot;C100V2jxXR6M\&quot;,\n      \&quot;rfidIsVerified\&quot;: \&quot;true\n      \&quot;\n    }\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;data\&quot;:\n  [\n    {\n    \&quot;rfidCode\&quot;:\&quot;E2806894000040221E408105\&quot;,\n    \&quot;rfidIsVerified\&quot;:true\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
